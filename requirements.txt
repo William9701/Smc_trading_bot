@@ -1,0 +1,90 @@
+# SMC Trading Bot - Tested Requirements
+# =====================================
+# Python Version: 3.9.18 or 3.10.12
+# Tested on Windows 10/11, Ubuntu 20.04+, macOS 12+
+
+# Core Trading & Data
+MetaTrader5
+pandas
+numpy==1.24.3
+pytz==2023.3
+
+# Machine Learning & Analysis
+scikit-learn==1.3.0
+tensorflow==2.15.0
+scipy==1.11.4
+
+# Visualization & Dashboard
+plotly==5.17.0
+dash==2.14.2
+dash-bootstrap-components==1.5.0
+matplotlib==3.8.0
+seaborn==0.13.0
+
+# Web Framework (for API/Dashboard)
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Configuration & Environment
+python-dotenv==1.0.0
+pyyaml==6.0.1
+configparser==6.0.0
+
+# Logging & Monitoring
+loguru==0.7.2
+psutil==5.9.6
+
+# Testing Framework
+pytest==7.4.3
+pytest-cov==4.1.0
+pytest-asyncio==0.21.1
+pytest-mock==3.12.0
+
+# Data Processing & Storage
+redis==5.0.1
+
+# Task Queue (for background processing)
+celery==5.3.4
+
+# Async Support
+asyncio  # Built-in with Python
+aiohttp==3.9.0
+
+# Development Tools
+black==23.11.0
+flake8==6.1.0
+isort==5.12.0
+mypy==1.7.1
+
+# Jupyter (for analysis notebooks)
+jupyter==1.0.0
+ipykernel==6.26.0
+
+# Financial Calculations
+QuantLib==1.32  # Optional - for advanced financial math
+
+# ===========================================
+# INSTALLATION COMMAND
+# ===========================================
+
+# Install all at once:
+# pip install -r requirements.txt
+
+# Or install in groups for safety:
+
+# Group 1: Core dependencies
+# pip install MetaTrader5==5.0.45 pandas==2.1.4 numpy==1.24.3 pytz==2023.3
+
+# Group 2: Web & API
+# pip install fastapi==0.104.1 uvicorn[standard]==0.24.0 pydantic==2.5.0
+
+# Group 3: ML & Analysis
+# pip install scikit-learn==1.3.0 tensorflow==2.15.0 scipy==1.11.4
+
+# Group 4: Visualization
+# pip install plotly==5.17.0 dash==2.14.2 matplotlib==3.8.0
+
+# Group 5: Development tools
+# pip install pytest==7.4.3 loguru==0.7.2 python-dotenv==1.0.0

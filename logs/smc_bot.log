@@ -1,0 +1,779 @@
+2025-08-06 22:23:07 | INFO     | __main__:__init__:45 | ============================================================
+2025-08-06 22:23:07 | INFO     | __main__:__init__:46 | SMC Trading Bot - Day 1 Demo Starting
+2025-08-06 22:23:07 | INFO     | __main__:__init__:47 | ============================================================
+2025-08-06 22:23:07 | INFO     | data_service.data_fetcher:__init__:57 | Enhanced MT5 Data Fetcher initialized
+2025-08-06 22:23:07 | INFO     | __main__:__init__:63 | Initialized with symbols: ['EURUSD', 'GBPUSD', 'USDJPY']
+2025-08-06 22:23:07 | INFO     | __main__:__init__:64 | Test timeframes: ['M15', 'H1', 'H4']
+2025-08-06 22:23:07 | INFO     | __main__:run_day1_tests:68 | Starting Day 1 comprehensive tests...
+2025-08-06 22:23:07 | INFO     | __main__:_test_mt5_connection:87 | Testing MT5 connection...
+2025-08-06 22:23:07 | INFO     | data_service.data_fetcher:initialize_mt5:67 | Initializing MT5 connection...
+2025-08-06 22:23:23 | INFO     | data_service.data_fetcher:initialize_mt5:87 | MT5 initialized successfully - Account: 94003752
+2025-08-06 22:23:23 | INFO     | data_service.data_fetcher:initialize_mt5:88 | Server: MetaQuotes-Demo, Balance: 82808.54
+2025-08-06 22:23:23 | SUCCESS  | __main__:_test_mt5_connection:118 | MT5 connection test completed in 15.67s
+2025-08-06 22:23:23 | INFO     | __main__:_test_data_fetching:138 | Testing data fetching...
+2025-08-06 22:23:23 | INFO     | __main__:_test_data_fetching:143 | Testing data fetch for EURUSD
+2025-08-06 22:23:23 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for EURUSD
+2025-08-06 22:23:23 | INFO     | __main__:_test_data_fetching:181 |   M15: 500 candles, quality: 0.616
+2025-08-06 22:23:23 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for EURUSD
+2025-08-06 22:23:23 | INFO     | __main__:_test_data_fetching:181 |   H1: 500 candles, quality: 0.616
+2025-08-06 22:23:23 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for EURUSD
+2025-08-06 22:23:23 | INFO     | __main__:_test_data_fetching:181 |   H4: 500 candles, quality: 0.588
+2025-08-06 22:23:23 | INFO     | __main__:_test_data_fetching:143 | Testing data fetch for GBPUSD
+2025-08-06 22:23:23 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for GBPUSD
+2025-08-06 22:23:23 | INFO     | __main__:_test_data_fetching:181 |   M15: 500 candles, quality: 0.616
+2025-08-06 22:23:23 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for GBPUSD
+2025-08-06 22:23:23 | INFO     | __main__:_test_data_fetching:181 |   H1: 500 candles, quality: 0.616
+2025-08-06 22:23:23 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for GBPUSD
+2025-08-06 22:23:23 | INFO     | __main__:_test_data_fetching:181 |   H4: 500 candles, quality: 0.588
+2025-08-06 22:23:23 | INFO     | __main__:_test_data_fetching:143 | Testing data fetch for USDJPY
+2025-08-06 22:23:23 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for USDJPY
+2025-08-06 22:23:23 | INFO     | __main__:_test_data_fetching:181 |   M15: 500 candles, quality: 0.616
+2025-08-06 22:23:23 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for USDJPY
+2025-08-06 22:23:23 | INFO     | __main__:_test_data_fetching:181 |   H1: 500 candles, quality: 0.616
+2025-08-06 22:23:23 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for USDJPY
+2025-08-06 22:23:23 | INFO     | __main__:_test_data_fetching:181 |   H4: 500 candles, quality: 0.588
+2025-08-06 22:23:23 | SUCCESS  | __main__:_test_data_fetching:193 | Data fetching tests completed
+2025-08-06 22:23:23 | INFO     | __main__:_test_multi_timeframe_fetching:198 | Testing multi-timeframe data fetching...
+2025-08-06 22:23:23 | INFO     | __main__:_test_multi_timeframe_fetching:203 | Testing multi-TF fetch for EURUSD
+2025-08-06 22:23:23 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching M15 data for EURUSD
+2025-08-06 22:23:23 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for EURUSD
+2025-08-06 22:23:23 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for EURUSD M15: 0.62
+2025-08-06 22:23:23 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching H1 data for EURUSD
+2025-08-06 22:23:23 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for EURUSD
+2025-08-06 22:23:23 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for EURUSD H1: 0.62
+2025-08-06 22:23:23 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching H4 data for EURUSD
+2025-08-06 22:23:23 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for EURUSD
+2025-08-06 22:23:23 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for EURUSD H4: 0.59
+2025-08-06 22:23:23 | INFO     | __main__:_test_multi_timeframe_fetching:241 |   Multi-TF: 1500 total candles in 0.09s
+2025-08-06 22:23:23 | INFO     | __main__:_test_multi_timeframe_fetching:203 | Testing multi-TF fetch for GBPUSD
+2025-08-06 22:23:23 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching M15 data for GBPUSD
+2025-08-06 22:23:23 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for GBPUSD
+2025-08-06 22:23:23 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for GBPUSD M15: 0.62
+2025-08-06 22:23:23 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching H1 data for GBPUSD
+2025-08-06 22:23:23 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for GBPUSD
+2025-08-06 22:23:23 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for GBPUSD H1: 0.62
+2025-08-06 22:23:23 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching H4 data for GBPUSD
+2025-08-06 22:23:23 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for GBPUSD
+2025-08-06 22:23:23 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for GBPUSD H4: 0.59
+2025-08-06 22:23:23 | INFO     | __main__:_test_multi_timeframe_fetching:241 |   Multi-TF: 1500 total candles in 0.10s
+2025-08-06 22:23:23 | INFO     | __main__:_test_multi_timeframe_fetching:203 | Testing multi-TF fetch for USDJPY
+2025-08-06 22:23:23 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching M15 data for USDJPY
+2025-08-06 22:23:23 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for USDJPY
+2025-08-06 22:23:23 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for USDJPY M15: 0.62
+2025-08-06 22:23:23 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching H1 data for USDJPY
+2025-08-06 22:23:23 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for USDJPY
+2025-08-06 22:23:23 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for USDJPY H1: 0.62
+2025-08-06 22:23:23 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching H4 data for USDJPY
+2025-08-06 22:23:23 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for USDJPY
+2025-08-06 22:23:23 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for USDJPY H4: 0.59
+2025-08-06 22:23:23 | INFO     | __main__:_test_multi_timeframe_fetching:241 |   Multi-TF: 1500 total candles in 0.10s
+2025-08-06 22:23:23 | SUCCESS  | __main__:_test_multi_timeframe_fetching:251 | Multi-timeframe tests completed
+2025-08-06 22:23:23 | INFO     | __main__:_test_data_validation:256 | Testing data validation...
+2025-08-06 22:23:23 | INFO     | __main__:_test_data_validation:262 | Validating data for EURUSD
+2025-08-06 22:23:23 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 100 candles for EURUSD
+2025-08-06 22:23:23 | INFO     | __main__:_test_data_validation:288 |   EURUSD: Valid=True, Quality=0.950
+2025-08-06 22:23:23 | INFO     | __main__:_test_data_validation:262 | Validating data for GBPUSD
+2025-08-06 22:23:23 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 100 candles for GBPUSD
+2025-08-06 22:23:23 | INFO     | __main__:_test_data_validation:288 |   GBPUSD: Valid=True, Quality=1.000
+2025-08-06 22:23:23 | INFO     | __main__:_test_data_validation:299 | Testing validation with invalid data...
+2025-08-06 22:23:23 | INFO     | __main__:_test_data_validation:322 | Invalid data test: Errors=2, Quality=0.490
+2025-08-06 22:23:23 | SUCCESS  | __main__:_test_data_validation:328 | Data validation tests completed
+2025-08-06 22:23:23 | INFO     | __main__:_test_data_preprocessing:333 | Testing data preprocessing...
+2025-08-06 22:23:23 | INFO     | __main__:_test_data_preprocessing:338 | Testing preprocessing for EURUSD
+2025-08-06 22:23:23 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 200 candles for EURUSD
+2025-08-06 22:23:23 | INFO     | data_service.data_preprocessor:preprocess_data:36 | Preprocessing 200 candles for EURUSD
+2025-08-06 22:23:24 | INFO     | data_service.data_preprocessor:preprocess_data:47 | Preprocessing completed - 200 candles output
+2025-08-06 22:23:24 | INFO     | __main__:_test_data_preprocessing:372 |   EURUSD: 200/200 candles retained, indicators added: True
+2025-08-06 22:23:24 | INFO     | __main__:_test_data_preprocessing:338 | Testing preprocessing for GBPUSD
+2025-08-06 22:23:24 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 200 candles for GBPUSD
+2025-08-06 22:23:24 | INFO     | data_service.data_preprocessor:preprocess_data:36 | Preprocessing 200 candles for GBPUSD
+2025-08-06 22:23:24 | INFO     | data_service.data_preprocessor:preprocess_data:47 | Preprocessing completed - 200 candles output
+2025-08-06 22:23:24 | INFO     | __main__:_test_data_preprocessing:372 |   GBPUSD: 200/200 candles retained, indicators added: True
+2025-08-06 22:23:24 | SUCCESS  | __main__:_test_data_preprocessing:381 | Data preprocessing tests completed
+2025-08-06 22:23:24 | INFO     | __main__:_test_performance:386 | Testing system performance...
+2025-08-06 22:23:24 | INFO     | __main__:_test_performance:391 | Testing data fetching performance...
+2025-08-06 22:23:24 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 1000 candles for EURUSD
+2025-08-06 22:23:24 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 1000 candles for EURUSD
+2025-08-06 22:23:24 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 1000 candles for EURUSD
+2025-08-06 22:23:24 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 1000 candles for EURUSD
+2025-08-06 22:23:24 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 1000 candles for EURUSD
+2025-08-06 22:23:24 | INFO     | __main__:_test_performance:414 | Testing processing performance...
+2025-08-06 22:23:24 | INFO     | data_service.data_preprocessor:preprocess_data:36 | Preprocessing 1000 candles for EURUSD
+2025-08-06 22:23:24 | INFO     | data_service.data_preprocessor:preprocess_data:47 | Preprocessing completed - 1000 candles output
+2025-08-06 22:23:24 | INFO     | data_service.data_preprocessor:preprocess_data:36 | Preprocessing 1000 candles for EURUSD
+2025-08-06 22:23:24 | INFO     | data_service.data_preprocessor:preprocess_data:47 | Preprocessing completed - 1000 candles output
+2025-08-06 22:23:24 | INFO     | data_service.data_preprocessor:preprocess_data:36 | Preprocessing 1000 candles for EURUSD
+2025-08-06 22:23:24 | INFO     | data_service.data_preprocessor:preprocess_data:47 | Preprocessing completed - 1000 candles output
+2025-08-06 22:23:24 | SUCCESS  | __main__:_test_performance:453 | Performance tests completed
+2025-08-06 22:23:24 | INFO     | __main__:_test_error_handling:458 | Testing error handling...
+2025-08-06 22:23:24 | ERROR    | data_service.data_fetcher:ensure_symbol_selected:133 | Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:23:24 | WARNING  | data_service.data_fetcher:fetch_data_with_retry:186 | Attempt 1 failed: Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:23:25 | ERROR    | data_service.data_fetcher:ensure_symbol_selected:133 | Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:23:25 | WARNING  | data_service.data_fetcher:fetch_data_with_retry:186 | Attempt 2 failed: Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:23:27 | ERROR    | data_service.data_fetcher:ensure_symbol_selected:133 | Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:23:27 | WARNING  | data_service.data_fetcher:fetch_data_with_retry:186 | Attempt 3 failed: Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:23:27 | ERROR    | data_service.data_fetcher:fetch_data_with_retry:193 | Failed to fetch data after 3 attempts: Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:23:27 | ERROR    | data_service.data_fetcher:get_symbol_data:253 | Error in get_symbol_data for INVALID_SYMBOL: Failed to fetch data after 3 attempts: Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:23:27 | WARNING  | data_service.data_fetcher:fetch_data_with_retry:186 | Attempt 1 failed: Invalid timeframe: INVALID_TF
+2025-08-06 22:23:28 | WARNING  | data_service.data_fetcher:fetch_data_with_retry:186 | Attempt 2 failed: Invalid timeframe: INVALID_TF
+2025-08-06 22:23:30 | WARNING  | data_service.data_fetcher:fetch_data_with_retry:186 | Attempt 3 failed: Invalid timeframe: INVALID_TF
+2025-08-06 22:23:30 | ERROR    | data_service.data_fetcher:fetch_data_with_retry:193 | Failed to fetch data after 3 attempts: Invalid timeframe: INVALID_TF
+2025-08-06 22:23:30 | ERROR    | data_service.data_fetcher:get_symbol_data:253 | Error in get_symbol_data for EURUSD: Failed to fetch data after 3 attempts: Invalid timeframe: INVALID_TF
+2025-08-06 22:23:30 | WARNING  | data_service.data_preprocessor:preprocess_data:30 | Empty DataFrame passed to preprocessor
+2025-08-06 22:23:30 | SUCCESS  | __main__:_test_error_handling:505 | Error handling tests completed
+2025-08-06 22:23:30 | INFO     | __main__:_generate_day1_report:510 | Generating Day 1 comprehensive report...
+2025-08-06 22:23:30 | SUCCESS  | __main__:_generate_day1_report:576 | Day 1 report generated
+2025-08-06 22:23:30 | ERROR    | __main__:main:690 | Demo failed with error: 'charmap' codec can't encode character '\U0001f680' in position 2: character maps to <undefined>
+2025-08-06 22:23:30 | INFO     | __main__:cleanup:658 | Cleaning up Day 1 demo...
+2025-08-06 22:23:30 | INFO     | data_service.data_fetcher:shutdown_mt5:492 | MT5 connection shut down cleanly
+2025-08-06 22:23:30 | INFO     | __main__:cleanup:662 | Cleanup completed successfully
+2025-08-06 22:23:44 | INFO     | __main__:__init__:45 | ============================================================
+2025-08-06 22:23:44 | INFO     | __main__:__init__:46 | SMC Trading Bot - Day 1 Demo Starting
+2025-08-06 22:23:44 | INFO     | __main__:__init__:47 | ============================================================
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:__init__:57 | Enhanced MT5 Data Fetcher initialized
+2025-08-06 22:23:44 | INFO     | __main__:__init__:63 | Initialized with symbols: ['EURUSD', 'GBPUSD', 'USDJPY']
+2025-08-06 22:23:44 | INFO     | __main__:__init__:64 | Test timeframes: ['M15', 'H1', 'H4']
+2025-08-06 22:23:44 | INFO     | __main__:run_day1_tests:68 | Starting Day 1 comprehensive tests...
+2025-08-06 22:23:44 | INFO     | __main__:_test_mt5_connection:87 | Testing MT5 connection...
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:initialize_mt5:67 | Initializing MT5 connection...
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:initialize_mt5:87 | MT5 initialized successfully - Account: 94003752
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:initialize_mt5:88 | Server: MetaQuotes-Demo, Balance: 82808.54
+2025-08-06 22:23:44 | SUCCESS  | __main__:_test_mt5_connection:118 | MT5 connection test completed in 0.02s
+2025-08-06 22:23:44 | INFO     | __main__:_test_data_fetching:138 | Testing data fetching...
+2025-08-06 22:23:44 | INFO     | __main__:_test_data_fetching:143 | Testing data fetch for EURUSD
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for EURUSD
+2025-08-06 22:23:44 | INFO     | __main__:_test_data_fetching:181 |   M15: 500 candles, quality: 0.616
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for EURUSD
+2025-08-06 22:23:44 | INFO     | __main__:_test_data_fetching:181 |   H1: 500 candles, quality: 0.616
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for EURUSD
+2025-08-06 22:23:44 | INFO     | __main__:_test_data_fetching:181 |   H4: 500 candles, quality: 0.588
+2025-08-06 22:23:44 | INFO     | __main__:_test_data_fetching:143 | Testing data fetch for GBPUSD
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for GBPUSD
+2025-08-06 22:23:44 | INFO     | __main__:_test_data_fetching:181 |   M15: 500 candles, quality: 0.616
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for GBPUSD
+2025-08-06 22:23:44 | INFO     | __main__:_test_data_fetching:181 |   H1: 500 candles, quality: 0.616
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for GBPUSD
+2025-08-06 22:23:44 | INFO     | __main__:_test_data_fetching:181 |   H4: 500 candles, quality: 0.588
+2025-08-06 22:23:44 | INFO     | __main__:_test_data_fetching:143 | Testing data fetch for USDJPY
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for USDJPY
+2025-08-06 22:23:44 | INFO     | __main__:_test_data_fetching:181 |   M15: 500 candles, quality: 0.616
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for USDJPY
+2025-08-06 22:23:44 | INFO     | __main__:_test_data_fetching:181 |   H1: 500 candles, quality: 0.616
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for USDJPY
+2025-08-06 22:23:44 | INFO     | __main__:_test_data_fetching:181 |   H4: 500 candles, quality: 0.588
+2025-08-06 22:23:44 | SUCCESS  | __main__:_test_data_fetching:193 | Data fetching tests completed
+2025-08-06 22:23:44 | INFO     | __main__:_test_multi_timeframe_fetching:198 | Testing multi-timeframe data fetching...
+2025-08-06 22:23:44 | INFO     | __main__:_test_multi_timeframe_fetching:203 | Testing multi-TF fetch for EURUSD
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching M15 data for EURUSD
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for EURUSD
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for EURUSD M15: 0.62
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching H1 data for EURUSD
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for EURUSD
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for EURUSD H1: 0.62
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching H4 data for EURUSD
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for EURUSD
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for EURUSD H4: 0.59
+2025-08-06 22:23:44 | INFO     | __main__:_test_multi_timeframe_fetching:241 |   Multi-TF: 1500 total candles in 0.08s
+2025-08-06 22:23:44 | INFO     | __main__:_test_multi_timeframe_fetching:203 | Testing multi-TF fetch for GBPUSD
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching M15 data for GBPUSD
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for GBPUSD
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for GBPUSD M15: 0.62
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching H1 data for GBPUSD
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for GBPUSD
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for GBPUSD H1: 0.62
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching H4 data for GBPUSD
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for GBPUSD
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for GBPUSD H4: 0.59
+2025-08-06 22:23:44 | INFO     | __main__:_test_multi_timeframe_fetching:241 |   Multi-TF: 1500 total candles in 0.07s
+2025-08-06 22:23:44 | INFO     | __main__:_test_multi_timeframe_fetching:203 | Testing multi-TF fetch for USDJPY
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching M15 data for USDJPY
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for USDJPY
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for USDJPY M15: 0.62
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching H1 data for USDJPY
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for USDJPY
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for USDJPY H1: 0.62
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching H4 data for USDJPY
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for USDJPY
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for USDJPY H4: 0.59
+2025-08-06 22:23:44 | INFO     | __main__:_test_multi_timeframe_fetching:241 |   Multi-TF: 1500 total candles in 0.07s
+2025-08-06 22:23:44 | SUCCESS  | __main__:_test_multi_timeframe_fetching:251 | Multi-timeframe tests completed
+2025-08-06 22:23:44 | INFO     | __main__:_test_data_validation:256 | Testing data validation...
+2025-08-06 22:23:44 | INFO     | __main__:_test_data_validation:262 | Validating data for EURUSD
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 100 candles for EURUSD
+2025-08-06 22:23:44 | INFO     | __main__:_test_data_validation:288 |   EURUSD: Valid=True, Quality=0.950
+2025-08-06 22:23:44 | INFO     | __main__:_test_data_validation:262 | Validating data for GBPUSD
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 100 candles for GBPUSD
+2025-08-06 22:23:44 | INFO     | __main__:_test_data_validation:288 |   GBPUSD: Valid=True, Quality=1.000
+2025-08-06 22:23:44 | INFO     | __main__:_test_data_validation:299 | Testing validation with invalid data...
+2025-08-06 22:23:44 | INFO     | __main__:_test_data_validation:322 | Invalid data test: Errors=2, Quality=0.490
+2025-08-06 22:23:44 | SUCCESS  | __main__:_test_data_validation:328 | Data validation tests completed
+2025-08-06 22:23:44 | INFO     | __main__:_test_data_preprocessing:333 | Testing data preprocessing...
+2025-08-06 22:23:44 | INFO     | __main__:_test_data_preprocessing:338 | Testing preprocessing for EURUSD
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 200 candles for EURUSD
+2025-08-06 22:23:44 | INFO     | data_service.data_preprocessor:preprocess_data:36 | Preprocessing 200 candles for EURUSD
+2025-08-06 22:23:44 | INFO     | data_service.data_preprocessor:preprocess_data:47 | Preprocessing completed - 200 candles output
+2025-08-06 22:23:44 | INFO     | __main__:_test_data_preprocessing:372 |   EURUSD: 200/200 candles retained, indicators added: True
+2025-08-06 22:23:44 | INFO     | __main__:_test_data_preprocessing:338 | Testing preprocessing for GBPUSD
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 200 candles for GBPUSD
+2025-08-06 22:23:44 | INFO     | data_service.data_preprocessor:preprocess_data:36 | Preprocessing 200 candles for GBPUSD
+2025-08-06 22:23:44 | INFO     | data_service.data_preprocessor:preprocess_data:47 | Preprocessing completed - 200 candles output
+2025-08-06 22:23:44 | INFO     | __main__:_test_data_preprocessing:372 |   GBPUSD: 200/200 candles retained, indicators added: True
+2025-08-06 22:23:44 | SUCCESS  | __main__:_test_data_preprocessing:381 | Data preprocessing tests completed
+2025-08-06 22:23:44 | INFO     | __main__:_test_performance:386 | Testing system performance...
+2025-08-06 22:23:44 | INFO     | __main__:_test_performance:391 | Testing data fetching performance...
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 1000 candles for EURUSD
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 1000 candles for EURUSD
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 1000 candles for EURUSD
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 1000 candles for EURUSD
+2025-08-06 22:23:44 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 1000 candles for EURUSD
+2025-08-06 22:23:44 | INFO     | __main__:_test_performance:414 | Testing processing performance...
+2025-08-06 22:23:44 | INFO     | data_service.data_preprocessor:preprocess_data:36 | Preprocessing 1000 candles for EURUSD
+2025-08-06 22:23:44 | INFO     | data_service.data_preprocessor:preprocess_data:47 | Preprocessing completed - 1000 candles output
+2025-08-06 22:23:44 | INFO     | data_service.data_preprocessor:preprocess_data:36 | Preprocessing 1000 candles for EURUSD
+2025-08-06 22:23:44 | INFO     | data_service.data_preprocessor:preprocess_data:47 | Preprocessing completed - 1000 candles output
+2025-08-06 22:23:44 | INFO     | data_service.data_preprocessor:preprocess_data:36 | Preprocessing 1000 candles for EURUSD
+2025-08-06 22:23:44 | INFO     | data_service.data_preprocessor:preprocess_data:47 | Preprocessing completed - 1000 candles output
+2025-08-06 22:23:44 | SUCCESS  | __main__:_test_performance:453 | Performance tests completed
+2025-08-06 22:23:44 | INFO     | __main__:_test_error_handling:458 | Testing error handling...
+2025-08-06 22:23:44 | ERROR    | data_service.data_fetcher:ensure_symbol_selected:133 | Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:23:44 | WARNING  | data_service.data_fetcher:fetch_data_with_retry:186 | Attempt 1 failed: Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:23:45 | ERROR    | data_service.data_fetcher:ensure_symbol_selected:133 | Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:23:45 | WARNING  | data_service.data_fetcher:fetch_data_with_retry:186 | Attempt 2 failed: Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:23:47 | ERROR    | data_service.data_fetcher:ensure_symbol_selected:133 | Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:23:47 | WARNING  | data_service.data_fetcher:fetch_data_with_retry:186 | Attempt 3 failed: Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:23:47 | ERROR    | data_service.data_fetcher:fetch_data_with_retry:193 | Failed to fetch data after 3 attempts: Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:23:47 | ERROR    | data_service.data_fetcher:get_symbol_data:253 | Error in get_symbol_data for INVALID_SYMBOL: Failed to fetch data after 3 attempts: Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:23:47 | WARNING  | data_service.data_fetcher:fetch_data_with_retry:186 | Attempt 1 failed: Invalid timeframe: INVALID_TF
+2025-08-06 22:23:48 | WARNING  | data_service.data_fetcher:fetch_data_with_retry:186 | Attempt 2 failed: Invalid timeframe: INVALID_TF
+2025-08-06 22:23:50 | WARNING  | data_service.data_fetcher:fetch_data_with_retry:186 | Attempt 3 failed: Invalid timeframe: INVALID_TF
+2025-08-06 22:23:50 | ERROR    | data_service.data_fetcher:fetch_data_with_retry:193 | Failed to fetch data after 3 attempts: Invalid timeframe: INVALID_TF
+2025-08-06 22:23:50 | ERROR    | data_service.data_fetcher:get_symbol_data:253 | Error in get_symbol_data for EURUSD: Failed to fetch data after 3 attempts: Invalid timeframe: INVALID_TF
+2025-08-06 22:23:50 | WARNING  | data_service.data_preprocessor:preprocess_data:30 | Empty DataFrame passed to preprocessor
+2025-08-06 22:23:50 | SUCCESS  | __main__:_test_error_handling:505 | Error handling tests completed
+2025-08-06 22:23:50 | INFO     | __main__:_generate_day1_report:510 | Generating Day 1 comprehensive report...
+2025-08-06 22:23:50 | SUCCESS  | __main__:_generate_day1_report:576 | Day 1 report generated
+2025-08-06 22:23:50 | ERROR    | __main__:main:690 | Demo failed with error: 'charmap' codec can't encode character '\U0001f680' in position 2: character maps to <undefined>
+2025-08-06 22:23:50 | INFO     | __main__:cleanup:658 | Cleaning up Day 1 demo...
+2025-08-06 22:23:50 | INFO     | data_service.data_fetcher:shutdown_mt5:492 | MT5 connection shut down cleanly
+2025-08-06 22:23:50 | INFO     | __main__:cleanup:662 | Cleanup completed successfully
+2025-08-06 22:24:07 | INFO     | __main__:__init__:45 | ============================================================
+2025-08-06 22:24:07 | INFO     | __main__:__init__:46 | SMC Trading Bot - Day 1 Demo Starting
+2025-08-06 22:24:07 | INFO     | __main__:__init__:47 | ============================================================
+2025-08-06 22:24:07 | INFO     | data_service.data_fetcher:__init__:57 | Enhanced MT5 Data Fetcher initialized
+2025-08-06 22:24:07 | INFO     | __main__:__init__:63 | Initialized with symbols: ['EURUSD', 'GBPUSD', 'USDJPY']
+2025-08-06 22:24:07 | INFO     | __main__:__init__:64 | Test timeframes: ['M15', 'H1', 'H4']
+2025-08-06 22:24:07 | INFO     | __main__:run_day1_tests:68 | Starting Day 1 comprehensive tests...
+2025-08-06 22:24:07 | INFO     | __main__:_test_mt5_connection:87 | Testing MT5 connection...
+2025-08-06 22:24:07 | INFO     | data_service.data_fetcher:initialize_mt5:67 | Initializing MT5 connection...
+2025-08-06 22:24:07 | INFO     | data_service.data_fetcher:initialize_mt5:87 | MT5 initialized successfully - Account: 94003752
+2025-08-06 22:24:07 | INFO     | data_service.data_fetcher:initialize_mt5:88 | Server: MetaQuotes-Demo, Balance: 82808.54
+2025-08-06 22:24:07 | SUCCESS  | __main__:_test_mt5_connection:118 | MT5 connection test completed in 0.02s
+2025-08-06 22:24:07 | INFO     | __main__:_test_data_fetching:138 | Testing data fetching...
+2025-08-06 22:24:07 | INFO     | __main__:_test_data_fetching:143 | Testing data fetch for EURUSD
+2025-08-06 22:24:07 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for EURUSD
+2025-08-06 22:24:07 | INFO     | __main__:_test_data_fetching:181 |   M15: 500 candles, quality: 0.616
+2025-08-06 22:24:07 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for EURUSD
+2025-08-06 22:24:07 | INFO     | __main__:_test_data_fetching:181 |   H1: 500 candles, quality: 0.616
+2025-08-06 22:24:07 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for EURUSD
+2025-08-06 22:24:07 | INFO     | __main__:_test_data_fetching:181 |   H4: 500 candles, quality: 0.588
+2025-08-06 22:24:07 | INFO     | __main__:_test_data_fetching:143 | Testing data fetch for GBPUSD
+2025-08-06 22:24:07 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for GBPUSD
+2025-08-06 22:24:07 | INFO     | __main__:_test_data_fetching:181 |   M15: 500 candles, quality: 0.616
+2025-08-06 22:24:07 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for GBPUSD
+2025-08-06 22:24:07 | INFO     | __main__:_test_data_fetching:181 |   H1: 500 candles, quality: 0.616
+2025-08-06 22:24:07 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for GBPUSD
+2025-08-06 22:24:07 | INFO     | __main__:_test_data_fetching:181 |   H4: 500 candles, quality: 0.588
+2025-08-06 22:24:07 | INFO     | __main__:_test_data_fetching:143 | Testing data fetch for USDJPY
+2025-08-06 22:24:07 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for USDJPY
+2025-08-06 22:24:07 | INFO     | __main__:_test_data_fetching:181 |   M15: 500 candles, quality: 0.616
+2025-08-06 22:24:07 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for USDJPY
+2025-08-06 22:24:07 | INFO     | __main__:_test_data_fetching:181 |   H1: 500 candles, quality: 0.616
+2025-08-06 22:24:07 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for USDJPY
+2025-08-06 22:24:07 | INFO     | __main__:_test_data_fetching:181 |   H4: 500 candles, quality: 0.588
+2025-08-06 22:24:07 | SUCCESS  | __main__:_test_data_fetching:193 | Data fetching tests completed
+2025-08-06 22:24:07 | INFO     | __main__:_test_multi_timeframe_fetching:198 | Testing multi-timeframe data fetching...
+2025-08-06 22:24:07 | INFO     | __main__:_test_multi_timeframe_fetching:203 | Testing multi-TF fetch for EURUSD
+2025-08-06 22:24:07 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching M15 data for EURUSD
+2025-08-06 22:24:07 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for EURUSD
+2025-08-06 22:24:07 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for EURUSD M15: 0.62
+2025-08-06 22:24:07 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching H1 data for EURUSD
+2025-08-06 22:24:07 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for EURUSD
+2025-08-06 22:24:07 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for EURUSD H1: 0.62
+2025-08-06 22:24:07 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching H4 data for EURUSD
+2025-08-06 22:24:07 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for EURUSD
+2025-08-06 22:24:07 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for EURUSD H4: 0.59
+2025-08-06 22:24:07 | INFO     | __main__:_test_multi_timeframe_fetching:241 |   Multi-TF: 1500 total candles in 0.08s
+2025-08-06 22:24:07 | INFO     | __main__:_test_multi_timeframe_fetching:203 | Testing multi-TF fetch for GBPUSD
+2025-08-06 22:24:07 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching M15 data for GBPUSD
+2025-08-06 22:24:07 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for GBPUSD
+2025-08-06 22:24:07 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for GBPUSD M15: 0.62
+2025-08-06 22:24:07 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching H1 data for GBPUSD
+2025-08-06 22:24:07 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for GBPUSD
+2025-08-06 22:24:07 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for GBPUSD H1: 0.62
+2025-08-06 22:24:07 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching H4 data for GBPUSD
+2025-08-06 22:24:07 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for GBPUSD
+2025-08-06 22:24:07 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for GBPUSD H4: 0.59
+2025-08-06 22:24:07 | INFO     | __main__:_test_multi_timeframe_fetching:241 |   Multi-TF: 1500 total candles in 0.08s
+2025-08-06 22:24:07 | INFO     | __main__:_test_multi_timeframe_fetching:203 | Testing multi-TF fetch for USDJPY
+2025-08-06 22:24:07 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching M15 data for USDJPY
+2025-08-06 22:24:07 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for USDJPY
+2025-08-06 22:24:08 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for USDJPY M15: 0.62
+2025-08-06 22:24:08 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching H1 data for USDJPY
+2025-08-06 22:24:08 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for USDJPY
+2025-08-06 22:24:08 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for USDJPY H1: 0.62
+2025-08-06 22:24:08 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching H4 data for USDJPY
+2025-08-06 22:24:08 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for USDJPY
+2025-08-06 22:24:08 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for USDJPY H4: 0.59
+2025-08-06 22:24:08 | INFO     | __main__:_test_multi_timeframe_fetching:241 |   Multi-TF: 1500 total candles in 0.07s
+2025-08-06 22:24:08 | SUCCESS  | __main__:_test_multi_timeframe_fetching:251 | Multi-timeframe tests completed
+2025-08-06 22:24:08 | INFO     | __main__:_test_data_validation:256 | Testing data validation...
+2025-08-06 22:24:08 | INFO     | __main__:_test_data_validation:262 | Validating data for EURUSD
+2025-08-06 22:24:08 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 100 candles for EURUSD
+2025-08-06 22:24:08 | INFO     | __main__:_test_data_validation:288 |   EURUSD: Valid=True, Quality=0.950
+2025-08-06 22:24:08 | INFO     | __main__:_test_data_validation:262 | Validating data for GBPUSD
+2025-08-06 22:24:08 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 100 candles for GBPUSD
+2025-08-06 22:24:08 | INFO     | __main__:_test_data_validation:288 |   GBPUSD: Valid=True, Quality=1.000
+2025-08-06 22:24:08 | INFO     | __main__:_test_data_validation:299 | Testing validation with invalid data...
+2025-08-06 22:24:08 | INFO     | __main__:_test_data_validation:322 | Invalid data test: Errors=2, Quality=0.490
+2025-08-06 22:24:08 | SUCCESS  | __main__:_test_data_validation:328 | Data validation tests completed
+2025-08-06 22:24:08 | INFO     | __main__:_test_data_preprocessing:333 | Testing data preprocessing...
+2025-08-06 22:24:08 | INFO     | __main__:_test_data_preprocessing:338 | Testing preprocessing for EURUSD
+2025-08-06 22:24:08 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 200 candles for EURUSD
+2025-08-06 22:24:08 | INFO     | data_service.data_preprocessor:preprocess_data:36 | Preprocessing 200 candles for EURUSD
+2025-08-06 22:24:08 | INFO     | data_service.data_preprocessor:preprocess_data:47 | Preprocessing completed - 200 candles output
+2025-08-06 22:24:08 | INFO     | __main__:_test_data_preprocessing:372 |   EURUSD: 200/200 candles retained, indicators added: True
+2025-08-06 22:24:08 | INFO     | __main__:_test_data_preprocessing:338 | Testing preprocessing for GBPUSD
+2025-08-06 22:24:08 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 200 candles for GBPUSD
+2025-08-06 22:24:08 | INFO     | data_service.data_preprocessor:preprocess_data:36 | Preprocessing 200 candles for GBPUSD
+2025-08-06 22:24:08 | INFO     | data_service.data_preprocessor:preprocess_data:47 | Preprocessing completed - 200 candles output
+2025-08-06 22:24:08 | INFO     | __main__:_test_data_preprocessing:372 |   GBPUSD: 200/200 candles retained, indicators added: True
+2025-08-06 22:24:08 | SUCCESS  | __main__:_test_data_preprocessing:381 | Data preprocessing tests completed
+2025-08-06 22:24:08 | INFO     | __main__:_test_performance:386 | Testing system performance...
+2025-08-06 22:24:08 | INFO     | __main__:_test_performance:391 | Testing data fetching performance...
+2025-08-06 22:24:08 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 1000 candles for EURUSD
+2025-08-06 22:24:08 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 1000 candles for EURUSD
+2025-08-06 22:24:08 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 1000 candles for EURUSD
+2025-08-06 22:24:08 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 1000 candles for EURUSD
+2025-08-06 22:24:08 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 1000 candles for EURUSD
+2025-08-06 22:24:08 | INFO     | __main__:_test_performance:414 | Testing processing performance...
+2025-08-06 22:24:08 | INFO     | data_service.data_preprocessor:preprocess_data:36 | Preprocessing 1000 candles for EURUSD
+2025-08-06 22:24:08 | INFO     | data_service.data_preprocessor:preprocess_data:47 | Preprocessing completed - 1000 candles output
+2025-08-06 22:24:08 | INFO     | data_service.data_preprocessor:preprocess_data:36 | Preprocessing 1000 candles for EURUSD
+2025-08-06 22:24:08 | INFO     | data_service.data_preprocessor:preprocess_data:47 | Preprocessing completed - 1000 candles output
+2025-08-06 22:24:08 | INFO     | data_service.data_preprocessor:preprocess_data:36 | Preprocessing 1000 candles for EURUSD
+2025-08-06 22:24:08 | INFO     | data_service.data_preprocessor:preprocess_data:47 | Preprocessing completed - 1000 candles output
+2025-08-06 22:24:08 | SUCCESS  | __main__:_test_performance:453 | Performance tests completed
+2025-08-06 22:24:08 | INFO     | __main__:_test_error_handling:458 | Testing error handling...
+2025-08-06 22:24:08 | ERROR    | data_service.data_fetcher:ensure_symbol_selected:133 | Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:24:08 | WARNING  | data_service.data_fetcher:fetch_data_with_retry:186 | Attempt 1 failed: Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:24:09 | ERROR    | data_service.data_fetcher:ensure_symbol_selected:133 | Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:24:09 | WARNING  | data_service.data_fetcher:fetch_data_with_retry:186 | Attempt 2 failed: Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:24:11 | ERROR    | data_service.data_fetcher:ensure_symbol_selected:133 | Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:24:11 | WARNING  | data_service.data_fetcher:fetch_data_with_retry:186 | Attempt 3 failed: Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:24:11 | ERROR    | data_service.data_fetcher:fetch_data_with_retry:193 | Failed to fetch data after 3 attempts: Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:24:11 | ERROR    | data_service.data_fetcher:get_symbol_data:253 | Error in get_symbol_data for INVALID_SYMBOL: Failed to fetch data after 3 attempts: Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:24:11 | WARNING  | data_service.data_fetcher:fetch_data_with_retry:186 | Attempt 1 failed: Invalid timeframe: INVALID_TF
+2025-08-06 22:24:12 | WARNING  | data_service.data_fetcher:fetch_data_with_retry:186 | Attempt 2 failed: Invalid timeframe: INVALID_TF
+2025-08-06 22:24:14 | WARNING  | data_service.data_fetcher:fetch_data_with_retry:186 | Attempt 3 failed: Invalid timeframe: INVALID_TF
+2025-08-06 22:24:14 | ERROR    | data_service.data_fetcher:fetch_data_with_retry:193 | Failed to fetch data after 3 attempts: Invalid timeframe: INVALID_TF
+2025-08-06 22:24:14 | ERROR    | data_service.data_fetcher:get_symbol_data:253 | Error in get_symbol_data for EURUSD: Failed to fetch data after 3 attempts: Invalid timeframe: INVALID_TF
+2025-08-06 22:24:14 | WARNING  | data_service.data_preprocessor:preprocess_data:30 | Empty DataFrame passed to preprocessor
+2025-08-06 22:24:14 | SUCCESS  | __main__:_test_error_handling:505 | Error handling tests completed
+2025-08-06 22:24:14 | INFO     | __main__:_generate_day1_report:510 | Generating Day 1 comprehensive report...
+2025-08-06 22:24:14 | SUCCESS  | __main__:_generate_day1_report:576 | Day 1 report generated
+2025-08-06 22:24:14 | ERROR    | __main__:main:690 | Demo failed with error: 'charmap' codec can't encode character '\U0001f680' in position 2: character maps to <undefined>
+2025-08-06 22:24:14 | INFO     | __main__:cleanup:658 | Cleaning up Day 1 demo...
+2025-08-06 22:24:14 | INFO     | data_service.data_fetcher:shutdown_mt5:492 | MT5 connection shut down cleanly
+2025-08-06 22:24:14 | INFO     | __main__:cleanup:662 | Cleanup completed successfully
+2025-08-06 22:24:23 | INFO     | __main__:__init__:45 | ============================================================
+2025-08-06 22:24:23 | INFO     | __main__:__init__:46 | SMC Trading Bot - Day 1 Demo Starting
+2025-08-06 22:24:23 | INFO     | __main__:__init__:47 | ============================================================
+2025-08-06 22:24:23 | INFO     | data_service.data_fetcher:__init__:57 | Enhanced MT5 Data Fetcher initialized
+2025-08-06 22:24:23 | INFO     | __main__:__init__:63 | Initialized with symbols: ['EURUSD', 'GBPUSD', 'USDJPY']
+2025-08-06 22:24:23 | INFO     | __main__:__init__:64 | Test timeframes: ['M15', 'H1', 'H4']
+2025-08-06 22:24:23 | INFO     | __main__:run_day1_tests:68 | Starting Day 1 comprehensive tests...
+2025-08-06 22:24:23 | INFO     | __main__:_test_mt5_connection:87 | Testing MT5 connection...
+2025-08-06 22:24:23 | INFO     | data_service.data_fetcher:initialize_mt5:67 | Initializing MT5 connection...
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:initialize_mt5:87 | MT5 initialized successfully - Account: 94003752
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:initialize_mt5:88 | Server: MetaQuotes-Demo, Balance: 82808.54
+2025-08-06 22:24:24 | SUCCESS  | __main__:_test_mt5_connection:118 | MT5 connection test completed in 0.02s
+2025-08-06 22:24:24 | INFO     | __main__:_test_data_fetching:138 | Testing data fetching...
+2025-08-06 22:24:24 | INFO     | __main__:_test_data_fetching:143 | Testing data fetch for EURUSD
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for EURUSD
+2025-08-06 22:24:24 | INFO     | __main__:_test_data_fetching:181 |   M15: 500 candles, quality: 0.616
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for EURUSD
+2025-08-06 22:24:24 | INFO     | __main__:_test_data_fetching:181 |   H1: 500 candles, quality: 0.616
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for EURUSD
+2025-08-06 22:24:24 | INFO     | __main__:_test_data_fetching:181 |   H4: 500 candles, quality: 0.588
+2025-08-06 22:24:24 | INFO     | __main__:_test_data_fetching:143 | Testing data fetch for GBPUSD
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for GBPUSD
+2025-08-06 22:24:24 | INFO     | __main__:_test_data_fetching:181 |   M15: 500 candles, quality: 0.616
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for GBPUSD
+2025-08-06 22:24:24 | INFO     | __main__:_test_data_fetching:181 |   H1: 500 candles, quality: 0.616
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for GBPUSD
+2025-08-06 22:24:24 | INFO     | __main__:_test_data_fetching:181 |   H4: 500 candles, quality: 0.588
+2025-08-06 22:24:24 | INFO     | __main__:_test_data_fetching:143 | Testing data fetch for USDJPY
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for USDJPY
+2025-08-06 22:24:24 | INFO     | __main__:_test_data_fetching:181 |   M15: 500 candles, quality: 0.616
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for USDJPY
+2025-08-06 22:24:24 | INFO     | __main__:_test_data_fetching:181 |   H1: 500 candles, quality: 0.616
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for USDJPY
+2025-08-06 22:24:24 | INFO     | __main__:_test_data_fetching:181 |   H4: 500 candles, quality: 0.588
+2025-08-06 22:24:24 | SUCCESS  | __main__:_test_data_fetching:193 | Data fetching tests completed
+2025-08-06 22:24:24 | INFO     | __main__:_test_multi_timeframe_fetching:198 | Testing multi-timeframe data fetching...
+2025-08-06 22:24:24 | INFO     | __main__:_test_multi_timeframe_fetching:203 | Testing multi-TF fetch for EURUSD
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching M15 data for EURUSD
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for EURUSD
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for EURUSD M15: 0.62
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching H1 data for EURUSD
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for EURUSD
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for EURUSD H1: 0.62
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching H4 data for EURUSD
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for EURUSD
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for EURUSD H4: 0.59
+2025-08-06 22:24:24 | INFO     | __main__:_test_multi_timeframe_fetching:241 |   Multi-TF: 1500 total candles in 0.08s
+2025-08-06 22:24:24 | INFO     | __main__:_test_multi_timeframe_fetching:203 | Testing multi-TF fetch for GBPUSD
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching M15 data for GBPUSD
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for GBPUSD
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for GBPUSD M15: 0.62
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching H1 data for GBPUSD
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for GBPUSD
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for GBPUSD H1: 0.62
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching H4 data for GBPUSD
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for GBPUSD
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for GBPUSD H4: 0.59
+2025-08-06 22:24:24 | INFO     | __main__:_test_multi_timeframe_fetching:241 |   Multi-TF: 1500 total candles in 0.09s
+2025-08-06 22:24:24 | INFO     | __main__:_test_multi_timeframe_fetching:203 | Testing multi-TF fetch for USDJPY
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching M15 data for USDJPY
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for USDJPY
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for USDJPY M15: 0.62
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching H1 data for USDJPY
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for USDJPY
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for USDJPY H1: 0.62
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching H4 data for USDJPY
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for USDJPY
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for USDJPY H4: 0.59
+2025-08-06 22:24:24 | INFO     | __main__:_test_multi_timeframe_fetching:241 |   Multi-TF: 1500 total candles in 0.09s
+2025-08-06 22:24:24 | SUCCESS  | __main__:_test_multi_timeframe_fetching:251 | Multi-timeframe tests completed
+2025-08-06 22:24:24 | INFO     | __main__:_test_data_validation:256 | Testing data validation...
+2025-08-06 22:24:24 | INFO     | __main__:_test_data_validation:262 | Validating data for EURUSD
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 100 candles for EURUSD
+2025-08-06 22:24:24 | INFO     | __main__:_test_data_validation:288 |   EURUSD: Valid=True, Quality=0.950
+2025-08-06 22:24:24 | INFO     | __main__:_test_data_validation:262 | Validating data for GBPUSD
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 100 candles for GBPUSD
+2025-08-06 22:24:24 | INFO     | __main__:_test_data_validation:288 |   GBPUSD: Valid=True, Quality=1.000
+2025-08-06 22:24:24 | INFO     | __main__:_test_data_validation:299 | Testing validation with invalid data...
+2025-08-06 22:24:24 | INFO     | __main__:_test_data_validation:322 | Invalid data test: Errors=2, Quality=0.490
+2025-08-06 22:24:24 | SUCCESS  | __main__:_test_data_validation:328 | Data validation tests completed
+2025-08-06 22:24:24 | INFO     | __main__:_test_data_preprocessing:333 | Testing data preprocessing...
+2025-08-06 22:24:24 | INFO     | __main__:_test_data_preprocessing:338 | Testing preprocessing for EURUSD
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 200 candles for EURUSD
+2025-08-06 22:24:24 | INFO     | data_service.data_preprocessor:preprocess_data:36 | Preprocessing 200 candles for EURUSD
+2025-08-06 22:24:24 | INFO     | data_service.data_preprocessor:preprocess_data:47 | Preprocessing completed - 200 candles output
+2025-08-06 22:24:24 | INFO     | __main__:_test_data_preprocessing:372 |   EURUSD: 200/200 candles retained, indicators added: True
+2025-08-06 22:24:24 | INFO     | __main__:_test_data_preprocessing:338 | Testing preprocessing for GBPUSD
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 200 candles for GBPUSD
+2025-08-06 22:24:24 | INFO     | data_service.data_preprocessor:preprocess_data:36 | Preprocessing 200 candles for GBPUSD
+2025-08-06 22:24:24 | INFO     | data_service.data_preprocessor:preprocess_data:47 | Preprocessing completed - 200 candles output
+2025-08-06 22:24:24 | INFO     | __main__:_test_data_preprocessing:372 |   GBPUSD: 200/200 candles retained, indicators added: True
+2025-08-06 22:24:24 | SUCCESS  | __main__:_test_data_preprocessing:381 | Data preprocessing tests completed
+2025-08-06 22:24:24 | INFO     | __main__:_test_performance:386 | Testing system performance...
+2025-08-06 22:24:24 | INFO     | __main__:_test_performance:391 | Testing data fetching performance...
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 1000 candles for EURUSD
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 1000 candles for EURUSD
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 1000 candles for EURUSD
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 1000 candles for EURUSD
+2025-08-06 22:24:24 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 1000 candles for EURUSD
+2025-08-06 22:24:24 | INFO     | __main__:_test_performance:414 | Testing processing performance...
+2025-08-06 22:24:24 | INFO     | data_service.data_preprocessor:preprocess_data:36 | Preprocessing 1000 candles for EURUSD
+2025-08-06 22:24:24 | INFO     | data_service.data_preprocessor:preprocess_data:47 | Preprocessing completed - 1000 candles output
+2025-08-06 22:24:24 | INFO     | data_service.data_preprocessor:preprocess_data:36 | Preprocessing 1000 candles for EURUSD
+2025-08-06 22:24:24 | INFO     | data_service.data_preprocessor:preprocess_data:47 | Preprocessing completed - 1000 candles output
+2025-08-06 22:24:24 | INFO     | data_service.data_preprocessor:preprocess_data:36 | Preprocessing 1000 candles for EURUSD
+2025-08-06 22:24:24 | INFO     | data_service.data_preprocessor:preprocess_data:47 | Preprocessing completed - 1000 candles output
+2025-08-06 22:24:24 | SUCCESS  | __main__:_test_performance:453 | Performance tests completed
+2025-08-06 22:24:24 | INFO     | __main__:_test_error_handling:458 | Testing error handling...
+2025-08-06 22:24:24 | ERROR    | data_service.data_fetcher:ensure_symbol_selected:133 | Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:24:24 | WARNING  | data_service.data_fetcher:fetch_data_with_retry:186 | Attempt 1 failed: Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:24:25 | ERROR    | data_service.data_fetcher:ensure_symbol_selected:133 | Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:24:25 | WARNING  | data_service.data_fetcher:fetch_data_with_retry:186 | Attempt 2 failed: Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:24:27 | ERROR    | data_service.data_fetcher:ensure_symbol_selected:133 | Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:24:27 | WARNING  | data_service.data_fetcher:fetch_data_with_retry:186 | Attempt 3 failed: Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:24:27 | ERROR    | data_service.data_fetcher:fetch_data_with_retry:193 | Failed to fetch data after 3 attempts: Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:24:27 | ERROR    | data_service.data_fetcher:get_symbol_data:253 | Error in get_symbol_data for INVALID_SYMBOL: Failed to fetch data after 3 attempts: Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:24:27 | WARNING  | data_service.data_fetcher:fetch_data_with_retry:186 | Attempt 1 failed: Invalid timeframe: INVALID_TF
+2025-08-06 22:24:28 | WARNING  | data_service.data_fetcher:fetch_data_with_retry:186 | Attempt 2 failed: Invalid timeframe: INVALID_TF
+2025-08-06 22:24:30 | WARNING  | data_service.data_fetcher:fetch_data_with_retry:186 | Attempt 3 failed: Invalid timeframe: INVALID_TF
+2025-08-06 22:24:30 | ERROR    | data_service.data_fetcher:fetch_data_with_retry:193 | Failed to fetch data after 3 attempts: Invalid timeframe: INVALID_TF
+2025-08-06 22:24:30 | ERROR    | data_service.data_fetcher:get_symbol_data:253 | Error in get_symbol_data for EURUSD: Failed to fetch data after 3 attempts: Invalid timeframe: INVALID_TF
+2025-08-06 22:24:30 | WARNING  | data_service.data_preprocessor:preprocess_data:30 | Empty DataFrame passed to preprocessor
+2025-08-06 22:24:30 | SUCCESS  | __main__:_test_error_handling:505 | Error handling tests completed
+2025-08-06 22:24:30 | INFO     | __main__:_generate_day1_report:510 | Generating Day 1 comprehensive report...
+2025-08-06 22:24:30 | SUCCESS  | __main__:_generate_day1_report:576 | Day 1 report generated
+2025-08-06 22:24:30 | ERROR    | __main__:main:690 | Demo failed with error: 'charmap' codec can't encode character '\U0001f680' in position 2: character maps to <undefined>
+2025-08-06 22:24:30 | INFO     | __main__:cleanup:658 | Cleaning up Day 1 demo...
+2025-08-06 22:24:30 | INFO     | data_service.data_fetcher:shutdown_mt5:492 | MT5 connection shut down cleanly
+2025-08-06 22:24:30 | INFO     | __main__:cleanup:662 | Cleanup completed successfully
+2025-08-06 22:36:57 | INFO     | __main__:__init__:45 | ============================================================
+2025-08-06 22:36:57 | INFO     | __main__:__init__:46 | SMC Trading Bot - Day 1 Demo Starting
+2025-08-06 22:36:57 | INFO     | __main__:__init__:47 | ============================================================
+2025-08-06 22:36:57 | INFO     | data_service.data_fetcher:__init__:57 | Enhanced MT5 Data Fetcher initialized
+2025-08-06 22:36:57 | INFO     | __main__:__init__:63 | Initialized with symbols: ['EURUSD', 'GBPUSD', 'USDJPY']
+2025-08-06 22:36:57 | INFO     | __main__:__init__:64 | Test timeframes: ['M15', 'H1', 'H4']
+2025-08-06 22:36:57 | INFO     | __main__:run_day1_tests:68 | Starting Day 1 comprehensive tests...
+2025-08-06 22:36:57 | INFO     | __main__:_test_mt5_connection:87 | Testing MT5 connection...
+2025-08-06 22:36:57 | INFO     | data_service.data_fetcher:initialize_mt5:67 | Initializing MT5 connection...
+2025-08-06 22:36:57 | INFO     | data_service.data_fetcher:initialize_mt5:87 | MT5 initialized successfully - Account: 94003752
+2025-08-06 22:36:57 | INFO     | data_service.data_fetcher:initialize_mt5:88 | Server: MetaQuotes-Demo, Balance: 82808.54
+2025-08-06 22:36:57 | SUCCESS  | __main__:_test_mt5_connection:118 | MT5 connection test completed in 0.02s
+2025-08-06 22:36:57 | INFO     | __main__:_test_data_fetching:138 | Testing data fetching...
+2025-08-06 22:36:57 | INFO     | __main__:_test_data_fetching:143 | Testing data fetch for EURUSD
+2025-08-06 22:36:57 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for EURUSD
+2025-08-06 22:36:57 | INFO     | __main__:_test_data_fetching:181 |   M15: 500 candles, quality: 0.616
+2025-08-06 22:36:57 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for EURUSD
+2025-08-06 22:36:57 | INFO     | __main__:_test_data_fetching:181 |   H1: 500 candles, quality: 0.616
+2025-08-06 22:36:57 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for EURUSD
+2025-08-06 22:36:57 | INFO     | __main__:_test_data_fetching:181 |   H4: 500 candles, quality: 0.588
+2025-08-06 22:36:57 | INFO     | __main__:_test_data_fetching:143 | Testing data fetch for GBPUSD
+2025-08-06 22:36:57 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for GBPUSD
+2025-08-06 22:36:57 | INFO     | __main__:_test_data_fetching:181 |   M15: 500 candles, quality: 0.616
+2025-08-06 22:36:57 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for GBPUSD
+2025-08-06 22:36:57 | INFO     | __main__:_test_data_fetching:181 |   H1: 500 candles, quality: 0.616
+2025-08-06 22:36:57 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for GBPUSD
+2025-08-06 22:36:57 | INFO     | __main__:_test_data_fetching:181 |   H4: 500 candles, quality: 0.588
+2025-08-06 22:36:57 | INFO     | __main__:_test_data_fetching:143 | Testing data fetch for USDJPY
+2025-08-06 22:36:57 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for USDJPY
+2025-08-06 22:36:57 | INFO     | __main__:_test_data_fetching:181 |   M15: 500 candles, quality: 0.616
+2025-08-06 22:36:57 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for USDJPY
+2025-08-06 22:36:57 | INFO     | __main__:_test_data_fetching:181 |   H1: 500 candles, quality: 0.616
+2025-08-06 22:36:57 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for USDJPY
+2025-08-06 22:36:57 | INFO     | __main__:_test_data_fetching:181 |   H4: 500 candles, quality: 0.588
+2025-08-06 22:36:57 | SUCCESS  | __main__:_test_data_fetching:193 | Data fetching tests completed
+2025-08-06 22:36:57 | INFO     | __main__:_test_multi_timeframe_fetching:198 | Testing multi-timeframe data fetching...
+2025-08-06 22:36:57 | INFO     | __main__:_test_multi_timeframe_fetching:203 | Testing multi-TF fetch for EURUSD
+2025-08-06 22:36:57 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching M15 data for EURUSD
+2025-08-06 22:36:57 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for EURUSD
+2025-08-06 22:36:57 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for EURUSD M15: 0.62
+2025-08-06 22:36:57 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching H1 data for EURUSD
+2025-08-06 22:36:57 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for EURUSD
+2025-08-06 22:36:57 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for EURUSD H1: 0.62
+2025-08-06 22:36:57 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching H4 data for EURUSD
+2025-08-06 22:36:57 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for EURUSD
+2025-08-06 22:36:57 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for EURUSD H4: 0.59
+2025-08-06 22:36:57 | INFO     | __main__:_test_multi_timeframe_fetching:241 |   Multi-TF: 1500 total candles in 0.06s
+2025-08-06 22:36:57 | INFO     | __main__:_test_multi_timeframe_fetching:203 | Testing multi-TF fetch for GBPUSD
+2025-08-06 22:36:57 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching M15 data for GBPUSD
+2025-08-06 22:36:57 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for GBPUSD
+2025-08-06 22:36:57 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for GBPUSD M15: 0.62
+2025-08-06 22:36:57 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching H1 data for GBPUSD
+2025-08-06 22:36:57 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for GBPUSD
+2025-08-06 22:36:57 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for GBPUSD H1: 0.62
+2025-08-06 22:36:57 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching H4 data for GBPUSD
+2025-08-06 22:36:57 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for GBPUSD
+2025-08-06 22:36:58 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for GBPUSD H4: 0.59
+2025-08-06 22:36:58 | INFO     | __main__:_test_multi_timeframe_fetching:241 |   Multi-TF: 1500 total candles in 0.06s
+2025-08-06 22:36:58 | INFO     | __main__:_test_multi_timeframe_fetching:203 | Testing multi-TF fetch for USDJPY
+2025-08-06 22:36:58 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching M15 data for USDJPY
+2025-08-06 22:36:58 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for USDJPY
+2025-08-06 22:36:58 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for USDJPY M15: 0.62
+2025-08-06 22:36:58 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching H1 data for USDJPY
+2025-08-06 22:36:58 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for USDJPY
+2025-08-06 22:36:58 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for USDJPY H1: 0.62
+2025-08-06 22:36:58 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching H4 data for USDJPY
+2025-08-06 22:36:58 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for USDJPY
+2025-08-06 22:36:58 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for USDJPY H4: 0.59
+2025-08-06 22:36:58 | INFO     | __main__:_test_multi_timeframe_fetching:241 |   Multi-TF: 1500 total candles in 0.05s
+2025-08-06 22:36:58 | SUCCESS  | __main__:_test_multi_timeframe_fetching:251 | Multi-timeframe tests completed
+2025-08-06 22:36:58 | INFO     | __main__:_test_data_validation:256 | Testing data validation...
+2025-08-06 22:36:58 | INFO     | __main__:_test_data_validation:262 | Validating data for EURUSD
+2025-08-06 22:36:58 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 100 candles for EURUSD
+2025-08-06 22:36:58 | INFO     | __main__:_test_data_validation:288 |   EURUSD: Valid=True, Quality=1.000
+2025-08-06 22:36:58 | INFO     | __main__:_test_data_validation:262 | Validating data for GBPUSD
+2025-08-06 22:36:58 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 100 candles for GBPUSD
+2025-08-06 22:36:58 | INFO     | __main__:_test_data_validation:288 |   GBPUSD: Valid=True, Quality=1.000
+2025-08-06 22:36:58 | INFO     | __main__:_test_data_validation:299 | Testing validation with invalid data...
+2025-08-06 22:36:58 | INFO     | __main__:_test_data_validation:322 | Invalid data test: Errors=2, Quality=0.490
+2025-08-06 22:36:58 | SUCCESS  | __main__:_test_data_validation:328 | Data validation tests completed
+2025-08-06 22:36:58 | INFO     | __main__:_test_data_preprocessing:333 | Testing data preprocessing...
+2025-08-06 22:36:58 | INFO     | __main__:_test_data_preprocessing:338 | Testing preprocessing for EURUSD
+2025-08-06 22:36:58 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 200 candles for EURUSD
+2025-08-06 22:36:58 | INFO     | data_service.data_preprocessor:preprocess_data:36 | Preprocessing 200 candles for EURUSD
+2025-08-06 22:36:58 | INFO     | data_service.data_preprocessor:preprocess_data:47 | Preprocessing completed - 200 candles output
+2025-08-06 22:36:58 | INFO     | __main__:_test_data_preprocessing:372 |   EURUSD: 200/200 candles retained, indicators added: True
+2025-08-06 22:36:58 | INFO     | __main__:_test_data_preprocessing:338 | Testing preprocessing for GBPUSD
+2025-08-06 22:36:58 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 200 candles for GBPUSD
+2025-08-06 22:36:58 | INFO     | data_service.data_preprocessor:preprocess_data:36 | Preprocessing 200 candles for GBPUSD
+2025-08-06 22:36:58 | INFO     | data_service.data_preprocessor:preprocess_data:47 | Preprocessing completed - 200 candles output
+2025-08-06 22:36:58 | INFO     | __main__:_test_data_preprocessing:372 |   GBPUSD: 200/200 candles retained, indicators added: True
+2025-08-06 22:36:58 | SUCCESS  | __main__:_test_data_preprocessing:381 | Data preprocessing tests completed
+2025-08-06 22:36:58 | INFO     | __main__:_test_performance:386 | Testing system performance...
+2025-08-06 22:36:58 | INFO     | __main__:_test_performance:391 | Testing data fetching performance...
+2025-08-06 22:36:58 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 1000 candles for EURUSD
+2025-08-06 22:36:58 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 1000 candles for EURUSD
+2025-08-06 22:36:58 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 1000 candles for EURUSD
+2025-08-06 22:36:58 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 1000 candles for EURUSD
+2025-08-06 22:36:58 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 1000 candles for EURUSD
+2025-08-06 22:36:58 | INFO     | __main__:_test_performance:414 | Testing processing performance...
+2025-08-06 22:36:58 | INFO     | data_service.data_preprocessor:preprocess_data:36 | Preprocessing 1000 candles for EURUSD
+2025-08-06 22:36:58 | INFO     | data_service.data_preprocessor:preprocess_data:47 | Preprocessing completed - 1000 candles output
+2025-08-06 22:36:58 | INFO     | data_service.data_preprocessor:preprocess_data:36 | Preprocessing 1000 candles for EURUSD
+2025-08-06 22:36:58 | INFO     | data_service.data_preprocessor:preprocess_data:47 | Preprocessing completed - 1000 candles output
+2025-08-06 22:36:58 | INFO     | data_service.data_preprocessor:preprocess_data:36 | Preprocessing 1000 candles for EURUSD
+2025-08-06 22:36:58 | INFO     | data_service.data_preprocessor:preprocess_data:47 | Preprocessing completed - 1000 candles output
+2025-08-06 22:36:58 | SUCCESS  | __main__:_test_performance:453 | Performance tests completed
+2025-08-06 22:36:58 | INFO     | __main__:_test_error_handling:458 | Testing error handling...
+2025-08-06 22:36:58 | ERROR    | data_service.data_fetcher:ensure_symbol_selected:133 | Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:36:58 | WARNING  | data_service.data_fetcher:fetch_data_with_retry:186 | Attempt 1 failed: Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:36:59 | ERROR    | data_service.data_fetcher:ensure_symbol_selected:133 | Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:36:59 | WARNING  | data_service.data_fetcher:fetch_data_with_retry:186 | Attempt 2 failed: Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:37:01 | ERROR    | data_service.data_fetcher:ensure_symbol_selected:133 | Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:37:01 | WARNING  | data_service.data_fetcher:fetch_data_with_retry:186 | Attempt 3 failed: Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:37:01 | ERROR    | data_service.data_fetcher:fetch_data_with_retry:193 | Failed to fetch data after 3 attempts: Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:37:01 | ERROR    | data_service.data_fetcher:get_symbol_data:253 | Error in get_symbol_data for INVALID_SYMBOL: Failed to fetch data after 3 attempts: Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:37:01 | WARNING  | data_service.data_fetcher:fetch_data_with_retry:186 | Attempt 1 failed: Invalid timeframe: INVALID_TF
+2025-08-06 22:37:02 | WARNING  | data_service.data_fetcher:fetch_data_with_retry:186 | Attempt 2 failed: Invalid timeframe: INVALID_TF
+2025-08-06 22:37:04 | WARNING  | data_service.data_fetcher:fetch_data_with_retry:186 | Attempt 3 failed: Invalid timeframe: INVALID_TF
+2025-08-06 22:37:04 | ERROR    | data_service.data_fetcher:fetch_data_with_retry:193 | Failed to fetch data after 3 attempts: Invalid timeframe: INVALID_TF
+2025-08-06 22:37:04 | ERROR    | data_service.data_fetcher:get_symbol_data:253 | Error in get_symbol_data for EURUSD: Failed to fetch data after 3 attempts: Invalid timeframe: INVALID_TF
+2025-08-06 22:37:04 | WARNING  | data_service.data_preprocessor:preprocess_data:30 | Empty DataFrame passed to preprocessor
+2025-08-06 22:37:04 | SUCCESS  | __main__:_test_error_handling:505 | Error handling tests completed
+2025-08-06 22:37:04 | INFO     | __main__:_generate_day1_report:510 | Generating Day 1 comprehensive report...
+2025-08-06 22:37:04 | SUCCESS  | __main__:_generate_day1_report:576 | Day 1 report generated
+2025-08-06 22:37:04 | INFO     | __main__:_generate_day1_report:586 | Report saved to reports\day1_results.txt
+2025-08-06 22:37:04 | ERROR    | __main__:main:692 | Demo failed with error: object NoneType can't be used in 'await' expression
+2025-08-06 22:37:04 | INFO     | __main__:cleanup:660 | Cleaning up Day 1 demo...
+2025-08-06 22:37:04 | INFO     | data_service.data_fetcher:shutdown_mt5:492 | MT5 connection shut down cleanly
+2025-08-06 22:37:04 | INFO     | __main__:cleanup:664 | Cleanup completed successfully
+2025-08-06 22:45:57 | INFO     | __main__:__init__:45 | ============================================================
+2025-08-06 22:45:57 | INFO     | __main__:__init__:46 | SMC Trading Bot - Day 1 Demo Starting
+2025-08-06 22:45:57 | INFO     | __main__:__init__:47 | ============================================================
+2025-08-06 22:45:57 | INFO     | data_service.data_fetcher:__init__:57 | Enhanced MT5 Data Fetcher initialized
+2025-08-06 22:45:57 | INFO     | __main__:__init__:63 | Initialized with symbols: ['EURUSD', 'GBPUSD', 'USDJPY']
+2025-08-06 22:45:57 | INFO     | __main__:__init__:64 | Test timeframes: ['M15', 'H1', 'H4']
+2025-08-06 22:45:57 | INFO     | __main__:run_day1_tests:68 | Starting Day 1 comprehensive tests...
+2025-08-06 22:45:57 | INFO     | __main__:_test_mt5_connection:87 | Testing MT5 connection...
+2025-08-06 22:45:57 | INFO     | data_service.data_fetcher:initialize_mt5:67 | Initializing MT5 connection...
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:initialize_mt5:87 | MT5 initialized successfully - Account: 94003752
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:initialize_mt5:88 | Server: MetaQuotes-Demo, Balance: 82808.54
+2025-08-06 22:45:58 | SUCCESS  | __main__:_test_mt5_connection:118 | MT5 connection test completed in 0.02s
+2025-08-06 22:45:58 | INFO     | __main__:_test_data_fetching:138 | Testing data fetching...
+2025-08-06 22:45:58 | INFO     | __main__:_test_data_fetching:143 | Testing data fetch for EURUSD
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for EURUSD
+2025-08-06 22:45:58 | INFO     | __main__:_test_data_fetching:181 |   M15: 500 candles, quality: 0.616
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for EURUSD
+2025-08-06 22:45:58 | INFO     | __main__:_test_data_fetching:181 |   H1: 500 candles, quality: 0.616
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for EURUSD
+2025-08-06 22:45:58 | INFO     | __main__:_test_data_fetching:181 |   H4: 500 candles, quality: 0.588
+2025-08-06 22:45:58 | INFO     | __main__:_test_data_fetching:143 | Testing data fetch for GBPUSD
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for GBPUSD
+2025-08-06 22:45:58 | INFO     | __main__:_test_data_fetching:181 |   M15: 500 candles, quality: 0.616
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for GBPUSD
+2025-08-06 22:45:58 | INFO     | __main__:_test_data_fetching:181 |   H1: 500 candles, quality: 0.616
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for GBPUSD
+2025-08-06 22:45:58 | INFO     | __main__:_test_data_fetching:181 |   H4: 500 candles, quality: 0.588
+2025-08-06 22:45:58 | INFO     | __main__:_test_data_fetching:143 | Testing data fetch for USDJPY
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for USDJPY
+2025-08-06 22:45:58 | INFO     | __main__:_test_data_fetching:181 |   M15: 500 candles, quality: 0.616
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for USDJPY
+2025-08-06 22:45:58 | INFO     | __main__:_test_data_fetching:181 |   H1: 500 candles, quality: 0.616
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for USDJPY
+2025-08-06 22:45:58 | INFO     | __main__:_test_data_fetching:181 |   H4: 500 candles, quality: 0.588
+2025-08-06 22:45:58 | SUCCESS  | __main__:_test_data_fetching:193 | Data fetching tests completed
+2025-08-06 22:45:58 | INFO     | __main__:_test_multi_timeframe_fetching:198 | Testing multi-timeframe data fetching...
+2025-08-06 22:45:58 | INFO     | __main__:_test_multi_timeframe_fetching:203 | Testing multi-TF fetch for EURUSD
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching M15 data for EURUSD
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for EURUSD
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for EURUSD M15: 0.62
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching H1 data for EURUSD
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for EURUSD
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for EURUSD H1: 0.62
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching H4 data for EURUSD
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for EURUSD
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for EURUSD H4: 0.59
+2025-08-06 22:45:58 | INFO     | __main__:_test_multi_timeframe_fetching:241 |   Multi-TF: 1500 total candles in 0.06s
+2025-08-06 22:45:58 | INFO     | __main__:_test_multi_timeframe_fetching:203 | Testing multi-TF fetch for GBPUSD
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching M15 data for GBPUSD
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for GBPUSD
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for GBPUSD M15: 0.62
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching H1 data for GBPUSD
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for GBPUSD
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for GBPUSD H1: 0.62
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching H4 data for GBPUSD
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for GBPUSD
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for GBPUSD H4: 0.59
+2025-08-06 22:45:58 | INFO     | __main__:_test_multi_timeframe_fetching:241 |   Multi-TF: 1500 total candles in 0.05s
+2025-08-06 22:45:58 | INFO     | __main__:_test_multi_timeframe_fetching:203 | Testing multi-TF fetch for USDJPY
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching M15 data for USDJPY
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for USDJPY
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for USDJPY M15: 0.62
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching H1 data for USDJPY
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for USDJPY
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for USDJPY H1: 0.62
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:273 | Fetching H4 data for USDJPY
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 500 candles for USDJPY
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:get_multi_timeframe_data:286 | Data quality for USDJPY H4: 0.59
+2025-08-06 22:45:58 | INFO     | __main__:_test_multi_timeframe_fetching:241 |   Multi-TF: 1500 total candles in 0.06s
+2025-08-06 22:45:58 | SUCCESS  | __main__:_test_multi_timeframe_fetching:251 | Multi-timeframe tests completed
+2025-08-06 22:45:58 | INFO     | __main__:_test_data_validation:256 | Testing data validation...
+2025-08-06 22:45:58 | INFO     | __main__:_test_data_validation:262 | Validating data for EURUSD
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 100 candles for EURUSD
+2025-08-06 22:45:58 | INFO     | __main__:_test_data_validation:288 |   EURUSD: Valid=True, Quality=1.000
+2025-08-06 22:45:58 | INFO     | __main__:_test_data_validation:262 | Validating data for GBPUSD
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 100 candles for GBPUSD
+2025-08-06 22:45:58 | INFO     | __main__:_test_data_validation:288 |   GBPUSD: Valid=True, Quality=1.000
+2025-08-06 22:45:58 | INFO     | __main__:_test_data_validation:299 | Testing validation with invalid data...
+2025-08-06 22:45:58 | INFO     | __main__:_test_data_validation:322 | Invalid data test: Errors=2, Quality=0.490
+2025-08-06 22:45:58 | SUCCESS  | __main__:_test_data_validation:328 | Data validation tests completed
+2025-08-06 22:45:58 | INFO     | __main__:_test_data_preprocessing:333 | Testing data preprocessing...
+2025-08-06 22:45:58 | INFO     | __main__:_test_data_preprocessing:338 | Testing preprocessing for EURUSD
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 200 candles for EURUSD
+2025-08-06 22:45:58 | INFO     | data_service.data_preprocessor:preprocess_data:36 | Preprocessing 200 candles for EURUSD
+2025-08-06 22:45:58 | INFO     | data_service.data_preprocessor:preprocess_data:47 | Preprocessing completed - 200 candles output
+2025-08-06 22:45:58 | INFO     | __main__:_test_data_preprocessing:372 |   EURUSD: 200/200 candles retained, indicators added: True
+2025-08-06 22:45:58 | INFO     | __main__:_test_data_preprocessing:338 | Testing preprocessing for GBPUSD
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 200 candles for GBPUSD
+2025-08-06 22:45:58 | INFO     | data_service.data_preprocessor:preprocess_data:36 | Preprocessing 200 candles for GBPUSD
+2025-08-06 22:45:58 | INFO     | data_service.data_preprocessor:preprocess_data:47 | Preprocessing completed - 200 candles output
+2025-08-06 22:45:58 | INFO     | __main__:_test_data_preprocessing:372 |   GBPUSD: 200/200 candles retained, indicators added: True
+2025-08-06 22:45:58 | SUCCESS  | __main__:_test_data_preprocessing:381 | Data preprocessing tests completed
+2025-08-06 22:45:58 | INFO     | __main__:_test_performance:386 | Testing system performance...
+2025-08-06 22:45:58 | INFO     | __main__:_test_performance:391 | Testing data fetching performance...
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 1000 candles for EURUSD
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 1000 candles for EURUSD
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 1000 candles for EURUSD
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 1000 candles for EURUSD
+2025-08-06 22:45:58 | INFO     | data_service.data_fetcher:fetch_data_with_retry:181 | Successfully fetched 1000 candles for EURUSD
+2025-08-06 22:45:58 | INFO     | __main__:_test_performance:414 | Testing processing performance...
+2025-08-06 22:45:58 | INFO     | data_service.data_preprocessor:preprocess_data:36 | Preprocessing 1000 candles for EURUSD
+2025-08-06 22:45:58 | INFO     | data_service.data_preprocessor:preprocess_data:47 | Preprocessing completed - 1000 candles output
+2025-08-06 22:45:58 | INFO     | data_service.data_preprocessor:preprocess_data:36 | Preprocessing 1000 candles for EURUSD
+2025-08-06 22:45:58 | INFO     | data_service.data_preprocessor:preprocess_data:47 | Preprocessing completed - 1000 candles output
+2025-08-06 22:45:58 | INFO     | data_service.data_preprocessor:preprocess_data:36 | Preprocessing 1000 candles for EURUSD
+2025-08-06 22:45:58 | INFO     | data_service.data_preprocessor:preprocess_data:47 | Preprocessing completed - 1000 candles output
+2025-08-06 22:45:58 | SUCCESS  | __main__:_test_performance:453 | Performance tests completed
+2025-08-06 22:45:58 | INFO     | __main__:_test_error_handling:458 | Testing error handling...
+2025-08-06 22:45:58 | ERROR    | data_service.data_fetcher:ensure_symbol_selected:133 | Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:45:58 | WARNING  | data_service.data_fetcher:fetch_data_with_retry:186 | Attempt 1 failed: Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:45:59 | ERROR    | data_service.data_fetcher:ensure_symbol_selected:133 | Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:45:59 | WARNING  | data_service.data_fetcher:fetch_data_with_retry:186 | Attempt 2 failed: Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:46:01 | ERROR    | data_service.data_fetcher:ensure_symbol_selected:133 | Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:46:01 | WARNING  | data_service.data_fetcher:fetch_data_with_retry:186 | Attempt 3 failed: Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:46:01 | ERROR    | data_service.data_fetcher:fetch_data_with_retry:193 | Failed to fetch data after 3 attempts: Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:46:01 | ERROR    | data_service.data_fetcher:get_symbol_data:253 | Error in get_symbol_data for INVALID_SYMBOL: Failed to fetch data after 3 attempts: Failed to select symbol INVALID_SYMBOL
+2025-08-06 22:46:01 | WARNING  | data_service.data_fetcher:fetch_data_with_retry:186 | Attempt 1 failed: Invalid timeframe: INVALID_TF
+2025-08-06 22:46:02 | WARNING  | data_service.data_fetcher:fetch_data_with_retry:186 | Attempt 2 failed: Invalid timeframe: INVALID_TF
+2025-08-06 22:46:04 | WARNING  | data_service.data_fetcher:fetch_data_with_retry:186 | Attempt 3 failed: Invalid timeframe: INVALID_TF
+2025-08-06 22:46:04 | ERROR    | data_service.data_fetcher:fetch_data_with_retry:193 | Failed to fetch data after 3 attempts: Invalid timeframe: INVALID_TF
+2025-08-06 22:46:04 | ERROR    | data_service.data_fetcher:get_symbol_data:253 | Error in get_symbol_data for EURUSD: Failed to fetch data after 3 attempts: Invalid timeframe: INVALID_TF
+2025-08-06 22:46:04 | WARNING  | data_service.data_preprocessor:preprocess_data:30 | Empty DataFrame passed to preprocessor
+2025-08-06 22:46:04 | SUCCESS  | __main__:_test_error_handling:505 | Error handling tests completed
+2025-08-06 22:46:04 | INFO     | __main__:_generate_day1_report:510 | Generating Day 1 comprehensive report...
+2025-08-06 22:46:04 | SUCCESS  | __main__:_generate_day1_report:576 | Day 1 report generated
+2025-08-06 22:46:04 | INFO     | __main__:_generate_day1_report:586 | Report saved to reports\day1_results.txt
+2025-08-06 22:46:04 | INFO     | __main__:main:681 | ============================================================
+2025-08-06 22:46:04 | SUCCESS  | __main__:main:682 | 🎉 DAY 1 DEMO COMPLETED SUCCESSFULLY!
+2025-08-06 22:46:04 | INFO     | __main__:main:683 | Ready to proceed to Day 2: Market Structure Detection
+2025-08-06 22:46:04 | INFO     | __main__:main:684 | ============================================================
+2025-08-06 22:46:04 | INFO     | __main__:cleanup:660 | Cleaning up Day 1 demo...
+2025-08-06 22:46:04 | INFO     | data_service.data_fetcher:shutdown_mt5:492 | MT5 connection shut down cleanly
+2025-08-06 22:46:04 | INFO     | __main__:cleanup:664 | Cleanup completed successfully

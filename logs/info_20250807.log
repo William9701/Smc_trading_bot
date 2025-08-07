@@ -1,0 +1,351 @@
+2025-08-07 09:47:05.614 | INFO     | 12096 | 29588 | config.logging_config:setup_logging:68 - Logging configuration initialized successfully
+2025-08-07 09:47:05.614 | INFO     | 12096 | 29588 | config.logging_config:setup_logging:69 - Environment: development
+2025-08-07 09:47:05.615 | INFO     | 12096 | 29588 | config.logging_config:setup_logging:70 - Log level: INFO
+2025-08-07 09:47:05.615 | INFO     | 12096 | 29588 | config.logging_config:setup_logging:71 - Logs directory: C:\Users\ASUS\Desktop\Smc_trading_bot\logs
+2025-08-07 09:47:05.615 | INFO     | 12096 | 29588 | __main__:__init__:48 - ============================================================
+2025-08-07 09:47:05.615 | INFO     | 12096 | 29588 | __main__:__init__:49 - SMC Trading Bot - Day 2 Market Structure Demo
+2025-08-07 09:47:05.616 | INFO     | 12096 | 29588 | __main__:__init__:50 - ============================================================
+2025-08-07 09:47:05.616 | INFO     | 12096 | 29588 | data_service.data_fetcher:__init__:57 - Enhanced MT5 Data Fetcher initialized
+2025-08-07 09:47:05.616 | INFO     | 12096 | 29588 | market_structure.swing_analyzer:__init__:39 - SwingAnalyzer initialized with lookback: 5
+2025-08-07 09:47:05.616 | INFO     | 12096 | 29588 | market_structure.swing_analyzer:__init__:39 - SwingAnalyzer initialized with lookback: 5
+2025-08-07 09:47:05.617 | INFO     | 12096 | 29588 | market_structure.bos_choc_detector:__init__:41 - BOS/CHoC Detector initialized
+2025-08-07 09:47:05.617 | INFO     | 12096 | 29588 | market_structure.swing_analyzer:__init__:39 - SwingAnalyzer initialized with lookback: 5
+2025-08-07 09:47:05.617 | INFO     | 12096 | 29588 | market_structure.swing_analyzer:__init__:39 - SwingAnalyzer initialized with lookback: 5
+2025-08-07 09:47:05.617 | INFO     | 12096 | 29588 | market_structure.bos_choc_detector:__init__:41 - BOS/CHoC Detector initialized
+2025-08-07 09:47:05.617 | INFO     | 12096 | 29588 | market_structure.structure_detector:__init__:43 - Structure Detector initialized
+2025-08-07 09:47:05.618 | INFO     | 12096 | 29588 | market_structure.swing_analyzer:__init__:39 - SwingAnalyzer initialized with lookback: 5
+2025-08-07 09:47:05.618 | INFO     | 12096 | 29588 | market_structure.swing_analyzer:__init__:39 - SwingAnalyzer initialized with lookback: 5
+2025-08-07 09:47:05.618 | INFO     | 12096 | 29588 | market_structure.bos_choc_detector:__init__:41 - BOS/CHoC Detector initialized
+2025-08-07 09:47:05.618 | INFO     | 12096 | 29588 | market_structure.trend_classifier:__init__:53 - Trend Classifier initialized
+2025-08-07 09:47:05.619 | INFO     | 12096 | 29588 | analysis_dashboard.structure_visualizer:__init__:35 - Structure Visualizer initialized
+2025-08-07 09:47:05.619 | INFO     | 12096 | 29588 | __main__:__init__:70 - Testing market structure on: ['EURUSD', 'GBPUSD']
+2025-08-07 09:47:05.619 | INFO     | 12096 | 29588 | __main__:__init__:71 - Analysis timeframes: ['M15', 'H1', 'H4']
+2025-08-07 09:47:05.619 | INFO     | 12096 | 29588 | data_service.data_fetcher:initialize_mt5:67 - Initializing MT5 connection...
+2025-08-07 09:47:05.659 | INFO     | 12096 | 29588 | data_service.data_fetcher:initialize_mt5:87 - MT5 initialized successfully - Account: 94003752
+2025-08-07 09:47:05.660 | INFO     | 12096 | 29588 | data_service.data_fetcher:initialize_mt5:88 - Server: MetaQuotes-Demo, Balance: 82808.54
+2025-08-07 09:47:05.660 | INFO     | 12096 | 29588 | __main__:cleanup:1161 - Cleaning up Day 2 demo...
+2025-08-07 09:47:05.660 | INFO     | 12096 | 29588 | data_service.data_fetcher:shutdown_mt5:492 - MT5 connection shut down cleanly
+2025-08-07 09:47:05.661 | INFO     | 12096 | 29588 | __main__:cleanup:1165 - Day 2 cleanup completed successfully
+2025-08-07 09:48:32.743 | INFO     | 56156 | 53288 | config.logging_config:setup_logging:68 - Logging configuration initialized successfully
+2025-08-07 09:48:32.743 | INFO     | 56156 | 53288 | config.logging_config:setup_logging:69 - Environment: development
+2025-08-07 09:48:32.743 | INFO     | 56156 | 53288 | config.logging_config:setup_logging:70 - Log level: INFO
+2025-08-07 09:48:32.744 | INFO     | 56156 | 53288 | config.logging_config:setup_logging:71 - Logs directory: C:\Users\ASUS\Desktop\Smc_trading_bot\logs
+2025-08-07 09:48:32.744 | INFO     | 56156 | 53288 | __main__:__init__:48 - ============================================================
+2025-08-07 09:48:32.744 | INFO     | 56156 | 53288 | __main__:__init__:49 - SMC Trading Bot - Day 2 Market Structure Demo
+2025-08-07 09:48:32.744 | INFO     | 56156 | 53288 | __main__:__init__:50 - ============================================================
+2025-08-07 09:48:32.744 | INFO     | 56156 | 53288 | data_service.data_fetcher:__init__:57 - Enhanced MT5 Data Fetcher initialized
+2025-08-07 09:48:32.744 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:__init__:39 - SwingAnalyzer initialized with lookback: 5
+2025-08-07 09:48:32.745 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:__init__:39 - SwingAnalyzer initialized with lookback: 5
+2025-08-07 09:48:32.745 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:__init__:41 - BOS/CHoC Detector initialized
+2025-08-07 09:48:32.745 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:__init__:39 - SwingAnalyzer initialized with lookback: 5
+2025-08-07 09:48:32.745 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:__init__:39 - SwingAnalyzer initialized with lookback: 5
+2025-08-07 09:48:32.745 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:__init__:41 - BOS/CHoC Detector initialized
+2025-08-07 09:48:32.745 | INFO     | 56156 | 53288 | market_structure.structure_detector:__init__:43 - Structure Detector initialized
+2025-08-07 09:48:32.745 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:__init__:39 - SwingAnalyzer initialized with lookback: 5
+2025-08-07 09:48:32.746 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:__init__:39 - SwingAnalyzer initialized with lookback: 5
+2025-08-07 09:48:32.746 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:__init__:41 - BOS/CHoC Detector initialized
+2025-08-07 09:48:32.746 | INFO     | 56156 | 53288 | market_structure.trend_classifier:__init__:53 - Trend Classifier initialized
+2025-08-07 09:48:32.746 | INFO     | 56156 | 53288 | analysis_dashboard.structure_visualizer:__init__:35 - Structure Visualizer initialized
+2025-08-07 09:48:32.746 | INFO     | 56156 | 53288 | __main__:__init__:70 - Testing market structure on: ['EURUSD', 'GBPUSD']
+2025-08-07 09:48:32.747 | INFO     | 56156 | 53288 | __main__:__init__:71 - Analysis timeframes: ['M15', 'H1', 'H4']
+2025-08-07 09:48:32.747 | INFO     | 56156 | 53288 | data_service.data_fetcher:initialize_mt5:67 - Initializing MT5 connection...
+2025-08-07 09:48:32.770 | INFO     | 56156 | 53288 | data_service.data_fetcher:initialize_mt5:87 - MT5 initialized successfully - Account: 94003752
+2025-08-07 09:48:32.770 | INFO     | 56156 | 53288 | data_service.data_fetcher:initialize_mt5:88 - Server: MetaQuotes-Demo, Balance: 82808.54
+2025-08-07 09:48:32.771 | INFO     | 56156 | 53288 | __main__:run_day2_tests:75 - Starting Day 2 market structure analysis...
+2025-08-07 09:48:32.771 | INFO     | 56156 | 53288 | config.logging_config:__enter__:531 - Starting day2_comprehensive_tests
+2025-08-07 09:48:32.771 | INFO     | 56156 | 53288 | __main__:_test_swing_detection:96 - Testing swing point detection...
+2025-08-07 09:48:32.771 | INFO     | 56156 | 53288 | __main__:_test_swing_detection:101 - Analyzing swing points for EURUSD
+2025-08-07 09:48:32.771 | INFO     | 56156 | 53288 | config.logging_config:__enter__:531 - Starting swing_detection
+2025-08-07 09:48:33.287 | INFO     | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:181 - Successfully fetched 1000 candles for EURUSD
+2025-08-07 09:48:33.287 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for EURUSD - 1000 candles
+2025-08-07 09:48:33.374 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 115 valid swing points for EURUSD
+2025-08-07 09:48:33.375 | INFO     | 56156 | 53288 | __main__:_test_swing_detection:147 -   M15: 115 swings, quality: 0.581
+2025-08-07 09:48:33.376 | INFO     | 56156 | 53288 | config.logging_config:__enter__:531 - Starting swing_detection
+2025-08-07 09:48:33.399 | INFO     | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:181 - Successfully fetched 1000 candles for EURUSD
+2025-08-07 09:48:33.400 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for EURUSD - 1000 candles
+2025-08-07 09:48:33.492 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 130 valid swing points for EURUSD
+2025-08-07 09:48:33.493 | INFO     | 56156 | 53288 | __main__:_test_swing_detection:147 -   H1: 130 swings, quality: 0.580
+2025-08-07 09:48:33.494 | INFO     | 56156 | 53288 | config.logging_config:__enter__:531 - Starting swing_detection
+2025-08-07 09:48:33.513 | INFO     | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:181 - Successfully fetched 1000 candles for EURUSD
+2025-08-07 09:48:33.514 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for EURUSD - 1000 candles
+2025-08-07 09:48:33.622 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 125 valid swing points for EURUSD
+2025-08-07 09:48:33.622 | INFO     | 56156 | 53288 | __main__:_test_swing_detection:147 -   H4: 125 swings, quality: 0.586
+2025-08-07 09:48:33.623 | INFO     | 56156 | 53288 | __main__:_test_swing_detection:101 - Analyzing swing points for GBPUSD
+2025-08-07 09:48:33.623 | INFO     | 56156 | 53288 | config.logging_config:__enter__:531 - Starting swing_detection
+2025-08-07 09:48:33.922 | INFO     | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:181 - Successfully fetched 1000 candles for GBPUSD
+2025-08-07 09:48:33.922 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for GBPUSD - 1000 candles
+2025-08-07 09:48:34.003 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 120 valid swing points for GBPUSD
+2025-08-07 09:48:34.003 | INFO     | 56156 | 53288 | __main__:_test_swing_detection:147 -   M15: 120 swings, quality: 0.583
+2025-08-07 09:48:34.004 | INFO     | 56156 | 53288 | config.logging_config:__enter__:531 - Starting swing_detection
+2025-08-07 09:48:34.025 | INFO     | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:181 - Successfully fetched 1000 candles for GBPUSD
+2025-08-07 09:48:34.026 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for GBPUSD - 1000 candles
+2025-08-07 09:48:34.108 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 114 valid swing points for GBPUSD
+2025-08-07 09:48:34.108 | INFO     | 56156 | 53288 | __main__:_test_swing_detection:147 -   H1: 114 swings, quality: 0.573
+2025-08-07 09:48:34.108 | INFO     | 56156 | 53288 | config.logging_config:__enter__:531 - Starting swing_detection
+2025-08-07 09:48:34.127 | INFO     | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:181 - Successfully fetched 1000 candles for GBPUSD
+2025-08-07 09:48:34.127 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for GBPUSD - 1000 candles
+2025-08-07 09:48:34.212 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 121 valid swing points for GBPUSD
+2025-08-07 09:48:34.212 | INFO     | 56156 | 53288 | __main__:_test_swing_detection:147 -   H4: 121 swings, quality: 0.590
+2025-08-07 09:48:34.214 | INFO     | 56156 | 53288 | __main__:_test_bos_choc_detection:169 - Testing BOS/CHoC detection...
+2025-08-07 09:48:34.214 | INFO     | 56156 | 53288 | __main__:_test_bos_choc_detection:174 - Analyzing structure breaks for EURUSD
+2025-08-07 09:48:34.215 | INFO     | 56156 | 53288 | config.logging_config:__enter__:531 - Starting bos_choc_detection
+2025-08-07 09:48:34.221 | INFO     | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:181 - Successfully fetched 1000 candles for EURUSD
+2025-08-07 09:48:34.222 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:52 - Detecting structure breaks for EURUSD - 1000 candles
+2025-08-07 09:48:34.222 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for EURUSD - 1000 candles
+2025-08-07 09:48:34.305 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 118 valid swing points for EURUSD
+2025-08-07 09:48:34.336 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:73 - Detected 33 structure breaks for EURUSD
+2025-08-07 09:48:34.336 | INFO     | 56156 | 53288 | __main__:_test_bos_choc_detection:221 -   M15: 33 breaks, trend: BULLISH
+2025-08-07 09:48:34.337 | INFO     | 56156 | 53288 | config.logging_config:__enter__:531 - Starting bos_choc_detection
+2025-08-07 09:48:34.344 | INFO     | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:181 - Successfully fetched 1000 candles for EURUSD
+2025-08-07 09:48:34.344 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:52 - Detecting structure breaks for EURUSD - 1000 candles
+2025-08-07 09:48:34.345 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for EURUSD - 1000 candles
+2025-08-07 09:48:34.428 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 130 valid swing points for EURUSD
+2025-08-07 09:48:34.460 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:73 - Detected 33 structure breaks for EURUSD
+2025-08-07 09:48:34.461 | INFO     | 56156 | 53288 | __main__:_test_bos_choc_detection:221 -   H1: 33 breaks, trend: BULLISH
+2025-08-07 09:48:34.461 | INFO     | 56156 | 53288 | config.logging_config:__enter__:531 - Starting bos_choc_detection
+2025-08-07 09:48:34.466 | INFO     | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:181 - Successfully fetched 1000 candles for EURUSD
+2025-08-07 09:48:34.467 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:52 - Detecting structure breaks for EURUSD - 1000 candles
+2025-08-07 09:48:34.468 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for EURUSD - 1000 candles
+2025-08-07 09:48:34.551 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 125 valid swing points for EURUSD
+2025-08-07 09:48:34.580 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:73 - Detected 25 structure breaks for EURUSD
+2025-08-07 09:48:34.580 | INFO     | 56156 | 53288 | __main__:_test_bos_choc_detection:221 -   H4: 25 breaks, trend: BEARISH
+2025-08-07 09:48:34.581 | INFO     | 56156 | 53288 | __main__:_test_bos_choc_detection:174 - Analyzing structure breaks for GBPUSD
+2025-08-07 09:48:34.581 | INFO     | 56156 | 53288 | config.logging_config:__enter__:531 - Starting bos_choc_detection
+2025-08-07 09:48:34.588 | INFO     | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:181 - Successfully fetched 1000 candles for GBPUSD
+2025-08-07 09:48:34.588 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:52 - Detecting structure breaks for GBPUSD - 1000 candles
+2025-08-07 09:48:34.589 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for GBPUSD - 1000 candles
+2025-08-07 09:48:34.674 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 121 valid swing points for GBPUSD
+2025-08-07 09:48:34.709 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:73 - Detected 38 structure breaks for GBPUSD
+2025-08-07 09:48:34.709 | INFO     | 56156 | 53288 | __main__:_test_bos_choc_detection:221 -   M15: 38 breaks, trend: BULLISH
+2025-08-07 09:48:34.710 | INFO     | 56156 | 53288 | config.logging_config:__enter__:531 - Starting bos_choc_detection
+2025-08-07 09:48:34.716 | INFO     | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:181 - Successfully fetched 1000 candles for GBPUSD
+2025-08-07 09:48:34.717 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:52 - Detecting structure breaks for GBPUSD - 1000 candles
+2025-08-07 09:48:34.718 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for GBPUSD - 1000 candles
+2025-08-07 09:48:34.802 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 115 valid swing points for GBPUSD
+2025-08-07 09:48:34.841 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:73 - Detected 32 structure breaks for GBPUSD
+2025-08-07 09:48:34.842 | INFO     | 56156 | 53288 | __main__:_test_bos_choc_detection:221 -   H1: 32 breaks, trend: BULLISH
+2025-08-07 09:48:34.842 | INFO     | 56156 | 53288 | config.logging_config:__enter__:531 - Starting bos_choc_detection
+2025-08-07 09:48:34.848 | INFO     | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:181 - Successfully fetched 1000 candles for GBPUSD
+2025-08-07 09:48:34.849 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:52 - Detecting structure breaks for GBPUSD - 1000 candles
+2025-08-07 09:48:34.850 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for GBPUSD - 1000 candles
+2025-08-07 09:48:34.941 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 121 valid swing points for GBPUSD
+2025-08-07 09:48:34.976 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:73 - Detected 34 structure breaks for GBPUSD
+2025-08-07 09:48:34.976 | INFO     | 56156 | 53288 | __main__:_test_bos_choc_detection:221 -   H4: 34 breaks, trend: BEARISH
+2025-08-07 09:48:34.977 | INFO     | 56156 | 53288 | __main__:_test_structure_detection:243 - Testing comprehensive structure detection...
+2025-08-07 09:48:34.977 | INFO     | 56156 | 53288 | config.logging_config:__enter__:531 - Starting structure_detection
+2025-08-07 09:48:34.982 | INFO     | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:181 - Successfully fetched 1000 candles for EURUSD
+2025-08-07 09:48:34.982 | INFO     | 56156 | 53288 | market_structure.structure_detector:detect_market_structure:54 - Detecting market structure for EURUSD - 1000 candles
+2025-08-07 09:48:34.984 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:52 - Detecting structure breaks for EURUSD - 1000 candles
+2025-08-07 09:48:34.984 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for EURUSD - 1000 candles
+2025-08-07 09:48:35.086 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 118 valid swing points for EURUSD
+2025-08-07 09:48:35.147 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:73 - Detected 33 structure breaks for EURUSD
+2025-08-07 09:48:35.148 | INFO     | 56156 | 53288 | market_structure.structure_detector:detect_market_structure:88 - Structure detection completed for EURUSD
+2025-08-07 09:48:35.148 | INFO     | 56156 | 53288 | config.logging_config:__enter__:531 - Starting structure_detection
+2025-08-07 09:48:35.154 | INFO     | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:181 - Successfully fetched 1000 candles for EURUSD
+2025-08-07 09:48:35.155 | INFO     | 56156 | 53288 | market_structure.structure_detector:detect_market_structure:54 - Detecting market structure for EURUSD - 1000 candles
+2025-08-07 09:48:35.156 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:52 - Detecting structure breaks for EURUSD - 1000 candles
+2025-08-07 09:48:35.156 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for EURUSD - 1000 candles
+2025-08-07 09:48:35.258 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 130 valid swing points for EURUSD
+2025-08-07 09:48:35.289 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:73 - Detected 33 structure breaks for EURUSD
+2025-08-07 09:48:35.289 | INFO     | 56156 | 53288 | market_structure.structure_detector:detect_market_structure:88 - Structure detection completed for EURUSD
+2025-08-07 09:48:35.290 | INFO     | 56156 | 53288 | config.logging_config:__enter__:531 - Starting structure_detection
+2025-08-07 09:48:35.294 | INFO     | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:181 - Successfully fetched 1000 candles for EURUSD
+2025-08-07 09:48:35.295 | INFO     | 56156 | 53288 | market_structure.structure_detector:detect_market_structure:54 - Detecting market structure for EURUSD - 1000 candles
+2025-08-07 09:48:35.296 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:52 - Detecting structure breaks for EURUSD - 1000 candles
+2025-08-07 09:48:35.296 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for EURUSD - 1000 candles
+2025-08-07 09:48:35.424 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 125 valid swing points for EURUSD
+2025-08-07 09:48:35.449 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:73 - Detected 25 structure breaks for EURUSD
+2025-08-07 09:48:35.450 | INFO     | 56156 | 53288 | market_structure.structure_detector:detect_market_structure:88 - Structure detection completed for EURUSD
+2025-08-07 09:48:35.450 | INFO     | 56156 | 53288 | config.logging_config:__enter__:531 - Starting structure_detection
+2025-08-07 09:48:35.454 | INFO     | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:181 - Successfully fetched 1000 candles for GBPUSD
+2025-08-07 09:48:35.455 | INFO     | 56156 | 53288 | market_structure.structure_detector:detect_market_structure:54 - Detecting market structure for GBPUSD - 1000 candles
+2025-08-07 09:48:35.456 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:52 - Detecting structure breaks for GBPUSD - 1000 candles
+2025-08-07 09:48:35.456 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for GBPUSD - 1000 candles
+2025-08-07 09:48:35.539 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 121 valid swing points for GBPUSD
+2025-08-07 09:48:35.571 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:73 - Detected 38 structure breaks for GBPUSD
+2025-08-07 09:48:35.572 | INFO     | 56156 | 53288 | market_structure.structure_detector:detect_market_structure:88 - Structure detection completed for GBPUSD
+2025-08-07 09:48:35.572 | INFO     | 56156 | 53288 | config.logging_config:__enter__:531 - Starting structure_detection
+2025-08-07 09:48:35.577 | INFO     | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:181 - Successfully fetched 1000 candles for GBPUSD
+2025-08-07 09:48:35.578 | INFO     | 56156 | 53288 | market_structure.structure_detector:detect_market_structure:54 - Detecting market structure for GBPUSD - 1000 candles
+2025-08-07 09:48:35.578 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:52 - Detecting structure breaks for GBPUSD - 1000 candles
+2025-08-07 09:48:35.578 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for GBPUSD - 1000 candles
+2025-08-07 09:48:35.658 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 115 valid swing points for GBPUSD
+2025-08-07 09:48:35.689 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:73 - Detected 32 structure breaks for GBPUSD
+2025-08-07 09:48:35.689 | INFO     | 56156 | 53288 | market_structure.structure_detector:detect_market_structure:88 - Structure detection completed for GBPUSD
+2025-08-07 09:48:35.689 | INFO     | 56156 | 53288 | config.logging_config:__enter__:531 - Starting structure_detection
+2025-08-07 09:48:35.695 | INFO     | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:181 - Successfully fetched 1000 candles for GBPUSD
+2025-08-07 09:48:35.696 | INFO     | 56156 | 53288 | market_structure.structure_detector:detect_market_structure:54 - Detecting market structure for GBPUSD - 1000 candles
+2025-08-07 09:48:35.696 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:52 - Detecting structure breaks for GBPUSD - 1000 candles
+2025-08-07 09:48:35.696 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for GBPUSD - 1000 candles
+2025-08-07 09:48:35.784 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 121 valid swing points for GBPUSD
+2025-08-07 09:48:35.816 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:73 - Detected 34 structure breaks for GBPUSD
+2025-08-07 09:48:35.816 | INFO     | 56156 | 53288 | market_structure.structure_detector:detect_market_structure:88 - Structure detection completed for GBPUSD
+2025-08-07 09:48:35.817 | INFO     | 56156 | 53288 | __main__:_test_trend_classification:311 - Testing trend classification...
+2025-08-07 09:48:35.817 | INFO     | 56156 | 53288 | config.logging_config:__enter__:531 - Starting trend_classification
+2025-08-07 09:48:35.825 | INFO     | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:181 - Successfully fetched 1000 candles for EURUSD
+2025-08-07 09:48:35.826 | INFO     | 56156 | 53288 | market_structure.trend_classifier:classify_trend:64 - Classifying trend for EURUSD - 1000 candles
+2025-08-07 09:48:35.826 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:52 - Detecting structure breaks for EURUSD - 1000 candles
+2025-08-07 09:48:35.826 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for EURUSD - 1000 candles
+2025-08-07 09:48:35.912 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 118 valid swing points for EURUSD
+2025-08-07 09:48:35.939 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:73 - Detected 33 structure breaks for EURUSD
+2025-08-07 09:48:35.946 | INFO     | 56156 | 53288 | market_structure.trend_classifier:classify_trend:107 - Trend classification completed for EURUSD: BULLISH
+2025-08-07 09:48:35.947 | INFO     | 56156 | 53288 | config.logging_config:__enter__:531 - Starting trend_classification
+2025-08-07 09:48:35.952 | INFO     | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:181 - Successfully fetched 1000 candles for EURUSD
+2025-08-07 09:48:35.952 | INFO     | 56156 | 53288 | market_structure.trend_classifier:classify_trend:64 - Classifying trend for EURUSD - 1000 candles
+2025-08-07 09:48:35.952 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:52 - Detecting structure breaks for EURUSD - 1000 candles
+2025-08-07 09:48:35.954 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for EURUSD - 1000 candles
+2025-08-07 09:48:36.040 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 130 valid swing points for EURUSD
+2025-08-07 09:48:36.077 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:73 - Detected 33 structure breaks for EURUSD
+2025-08-07 09:48:36.086 | INFO     | 56156 | 53288 | market_structure.trend_classifier:classify_trend:107 - Trend classification completed for EURUSD: BULLISH
+2025-08-07 09:48:36.087 | INFO     | 56156 | 53288 | config.logging_config:__enter__:531 - Starting trend_classification
+2025-08-07 09:48:36.092 | INFO     | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:181 - Successfully fetched 1000 candles for EURUSD
+2025-08-07 09:48:36.093 | INFO     | 56156 | 53288 | market_structure.trend_classifier:classify_trend:64 - Classifying trend for EURUSD - 1000 candles
+2025-08-07 09:48:36.093 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:52 - Detecting structure breaks for EURUSD - 1000 candles
+2025-08-07 09:48:36.093 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for EURUSD - 1000 candles
+2025-08-07 09:48:36.184 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 125 valid swing points for EURUSD
+2025-08-07 09:48:36.253 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:73 - Detected 25 structure breaks for EURUSD
+2025-08-07 09:48:36.276 | INFO     | 56156 | 53288 | market_structure.trend_classifier:classify_trend:107 - Trend classification completed for EURUSD: BEARISH
+2025-08-07 09:48:36.277 | INFO     | 56156 | 53288 | config.logging_config:__enter__:531 - Starting trend_classification
+2025-08-07 09:48:36.282 | INFO     | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:181 - Successfully fetched 1000 candles for GBPUSD
+2025-08-07 09:48:36.284 | INFO     | 56156 | 53288 | market_structure.trend_classifier:classify_trend:64 - Classifying trend for GBPUSD - 1000 candles
+2025-08-07 09:48:36.285 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:52 - Detecting structure breaks for GBPUSD - 1000 candles
+2025-08-07 09:48:36.286 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for GBPUSD - 1000 candles
+2025-08-07 09:48:36.385 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 121 valid swing points for GBPUSD
+2025-08-07 09:48:36.418 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:73 - Detected 38 structure breaks for GBPUSD
+2025-08-07 09:48:36.425 | INFO     | 56156 | 53288 | market_structure.trend_classifier:classify_trend:107 - Trend classification completed for GBPUSD: BULLISH
+2025-08-07 09:48:36.425 | INFO     | 56156 | 53288 | config.logging_config:__enter__:531 - Starting trend_classification
+2025-08-07 09:48:36.431 | INFO     | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:181 - Successfully fetched 1000 candles for GBPUSD
+2025-08-07 09:48:36.432 | INFO     | 56156 | 53288 | market_structure.trend_classifier:classify_trend:64 - Classifying trend for GBPUSD - 1000 candles
+2025-08-07 09:48:36.432 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:52 - Detecting structure breaks for GBPUSD - 1000 candles
+2025-08-07 09:48:36.432 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for GBPUSD - 1000 candles
+2025-08-07 09:48:36.516 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 115 valid swing points for GBPUSD
+2025-08-07 09:48:36.548 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:73 - Detected 32 structure breaks for GBPUSD
+2025-08-07 09:48:36.556 | INFO     | 56156 | 53288 | market_structure.trend_classifier:classify_trend:107 - Trend classification completed for GBPUSD: BULLISH
+2025-08-07 09:48:36.557 | INFO     | 56156 | 53288 | config.logging_config:__enter__:531 - Starting trend_classification
+2025-08-07 09:48:36.561 | INFO     | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:181 - Successfully fetched 1000 candles for GBPUSD
+2025-08-07 09:48:36.562 | INFO     | 56156 | 53288 | market_structure.trend_classifier:classify_trend:64 - Classifying trend for GBPUSD - 1000 candles
+2025-08-07 09:48:36.563 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:52 - Detecting structure breaks for GBPUSD - 1000 candles
+2025-08-07 09:48:36.563 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for GBPUSD - 1000 candles
+2025-08-07 09:48:36.649 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 121 valid swing points for GBPUSD
+2025-08-07 09:48:36.680 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:73 - Detected 34 structure breaks for GBPUSD
+2025-08-07 09:48:36.687 | INFO     | 56156 | 53288 | market_structure.trend_classifier:classify_trend:107 - Trend classification completed for GBPUSD: BEARISH
+2025-08-07 09:48:36.688 | INFO     | 56156 | 53288 | __main__:_test_multi_timeframe_structure:378 - Testing multi-timeframe structure alignment...
+2025-08-07 09:48:36.688 | INFO     | 56156 | 53288 | __main__:_test_multi_timeframe_structure:383 - Analyzing multi-TF structure for EURUSD
+2025-08-07 09:48:36.688 | INFO     | 56156 | 53288 | config.logging_config:__enter__:531 - Starting multi_timeframe_analysis
+2025-08-07 09:48:36.689 | INFO     | 56156 | 29148 | data_service.data_fetcher:get_multi_timeframe_data:273 - Fetching M15 data for EURUSD
+2025-08-07 09:48:36.693 | INFO     | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:181 - Successfully fetched 1000 candles for EURUSD
+2025-08-07 09:48:36.708 | INFO     | 56156 | 29148 | data_service.data_fetcher:get_multi_timeframe_data:286 - Data quality for EURUSD M15: 0.62
+2025-08-07 09:48:36.709 | INFO     | 56156 | 29148 | data_service.data_fetcher:get_multi_timeframe_data:273 - Fetching H1 data for EURUSD
+2025-08-07 09:48:36.713 | INFO     | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:181 - Successfully fetched 1000 candles for EURUSD
+2025-08-07 09:48:36.728 | INFO     | 56156 | 29148 | data_service.data_fetcher:get_multi_timeframe_data:286 - Data quality for EURUSD H1: 0.60
+2025-08-07 09:48:36.728 | INFO     | 56156 | 29148 | data_service.data_fetcher:get_multi_timeframe_data:273 - Fetching H4 data for EURUSD
+2025-08-07 09:48:36.732 | INFO     | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:181 - Successfully fetched 1000 candles for EURUSD
+2025-08-07 09:48:36.746 | INFO     | 56156 | 29148 | data_service.data_fetcher:get_multi_timeframe_data:286 - Data quality for EURUSD H4: 0.58
+2025-08-07 09:48:36.747 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:52 - Detecting structure breaks for EURUSD_M15 - 1000 candles
+2025-08-07 09:48:36.747 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for EURUSD_M15 - 1000 candles
+2025-08-07 09:48:36.830 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 118 valid swing points for EURUSD_M15
+2025-08-07 09:48:36.863 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:73 - Detected 33 structure breaks for EURUSD_M15
+2025-08-07 09:48:36.864 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:52 - Detecting structure breaks for EURUSD_H1 - 1000 candles
+2025-08-07 09:48:36.864 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for EURUSD_H1 - 1000 candles
+2025-08-07 09:48:36.951 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 130 valid swing points for EURUSD_H1
+2025-08-07 09:48:36.983 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:73 - Detected 33 structure breaks for EURUSD_H1
+2025-08-07 09:48:36.983 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:52 - Detecting structure breaks for EURUSD_H4 - 1000 candles
+2025-08-07 09:48:36.984 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for EURUSD_H4 - 1000 candles
+2025-08-07 09:48:37.072 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 125 valid swing points for EURUSD_H4
+2025-08-07 09:48:37.105 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:73 - Detected 25 structure breaks for EURUSD_H4
+2025-08-07 09:48:37.106 | INFO     | 56156 | 53288 | __main__:_test_multi_timeframe_structure:427 -   Multi-TF alignment: 0.667, dominant: BEARISH
+2025-08-07 09:48:37.106 | INFO     | 56156 | 53288 | __main__:_test_multi_timeframe_structure:383 - Analyzing multi-TF structure for GBPUSD
+2025-08-07 09:48:37.106 | INFO     | 56156 | 53288 | config.logging_config:__enter__:531 - Starting multi_timeframe_analysis
+2025-08-07 09:48:37.106 | INFO     | 56156 | 29148 | data_service.data_fetcher:get_multi_timeframe_data:273 - Fetching M15 data for GBPUSD
+2025-08-07 09:48:37.111 | INFO     | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:181 - Successfully fetched 1000 candles for GBPUSD
+2025-08-07 09:48:37.126 | INFO     | 56156 | 29148 | data_service.data_fetcher:get_multi_timeframe_data:286 - Data quality for GBPUSD M15: 0.62
+2025-08-07 09:48:37.126 | INFO     | 56156 | 29148 | data_service.data_fetcher:get_multi_timeframe_data:273 - Fetching H1 data for GBPUSD
+2025-08-07 09:48:37.130 | INFO     | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:181 - Successfully fetched 1000 candles for GBPUSD
+2025-08-07 09:48:37.147 | INFO     | 56156 | 29148 | data_service.data_fetcher:get_multi_timeframe_data:286 - Data quality for GBPUSD H1: 0.60
+2025-08-07 09:48:37.147 | INFO     | 56156 | 29148 | data_service.data_fetcher:get_multi_timeframe_data:273 - Fetching H4 data for GBPUSD
+2025-08-07 09:48:37.150 | INFO     | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:181 - Successfully fetched 1000 candles for GBPUSD
+2025-08-07 09:48:37.165 | INFO     | 56156 | 29148 | data_service.data_fetcher:get_multi_timeframe_data:286 - Data quality for GBPUSD H4: 0.58
+2025-08-07 09:48:37.167 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:52 - Detecting structure breaks for GBPUSD_M15 - 1000 candles
+2025-08-07 09:48:37.167 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for GBPUSD_M15 - 1000 candles
+2025-08-07 09:48:37.264 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 121 valid swing points for GBPUSD_M15
+2025-08-07 09:48:37.314 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:73 - Detected 38 structure breaks for GBPUSD_M15
+2025-08-07 09:48:37.315 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:52 - Detecting structure breaks for GBPUSD_H1 - 1000 candles
+2025-08-07 09:48:37.315 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for GBPUSD_H1 - 1000 candles
+2025-08-07 09:48:37.438 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 115 valid swing points for GBPUSD_H1
+2025-08-07 09:48:37.476 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:73 - Detected 32 structure breaks for GBPUSD_H1
+2025-08-07 09:48:37.476 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:52 - Detecting structure breaks for GBPUSD_H4 - 1000 candles
+2025-08-07 09:48:37.477 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for GBPUSD_H4 - 1000 candles
+2025-08-07 09:48:37.573 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 121 valid swing points for GBPUSD_H4
+2025-08-07 09:48:37.614 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:73 - Detected 34 structure breaks for GBPUSD_H4
+2025-08-07 09:48:37.615 | INFO     | 56156 | 53288 | __main__:_test_multi_timeframe_structure:427 -   Multi-TF alignment: 0.667, dominant: BULLISH
+2025-08-07 09:48:37.615 | INFO     | 56156 | 53288 | __main__:_test_structure_validation:442 - Testing structure validation...
+2025-08-07 09:48:37.616 | INFO     | 56156 | 53288 | config.logging_config:__enter__:531 - Starting structure_validation
+2025-08-07 09:48:37.621 | INFO     | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:181 - Successfully fetched 1000 candles for EURUSD
+2025-08-07 09:48:37.622 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:52 - Detecting structure breaks for EURUSD - 1000 candles
+2025-08-07 09:48:37.622 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for EURUSD - 1000 candles
+2025-08-07 09:48:37.714 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 130 valid swing points for EURUSD
+2025-08-07 09:48:37.747 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:73 - Detected 33 structure breaks for EURUSD
+2025-08-07 09:48:37.747 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for UNKNOWN - 1000 candles
+2025-08-07 09:48:37.835 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 130 valid swing points for UNKNOWN
+2025-08-07 09:48:37.836 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for UNKNOWN - 1000 candles
+2025-08-07 09:48:37.926 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 130 valid swing points for UNKNOWN
+2025-08-07 09:48:37.927 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for UNKNOWN - 1000 candles
+2025-08-07 09:48:38.015 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 130 valid swing points for UNKNOWN
+2025-08-07 09:48:38.016 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for UNKNOWN - 1000 candles
+2025-08-07 09:48:38.100 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 130 valid swing points for UNKNOWN
+2025-08-07 09:48:38.101 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for UNKNOWN - 1000 candles
+2025-08-07 09:48:38.185 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 130 valid swing points for UNKNOWN
+2025-08-07 09:48:38.185 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for UNKNOWN - 1000 candles
+2025-08-07 09:48:38.269 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 130 valid swing points for UNKNOWN
+2025-08-07 09:48:38.270 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for UNKNOWN - 1000 candles
+2025-08-07 09:48:38.359 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 130 valid swing points for UNKNOWN
+2025-08-07 09:48:38.360 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for UNKNOWN - 1000 candles
+2025-08-07 09:48:38.446 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 130 valid swing points for UNKNOWN
+2025-08-07 09:48:38.447 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for UNKNOWN - 1000 candles
+2025-08-07 09:48:38.533 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 130 valid swing points for UNKNOWN
+2025-08-07 09:48:38.533 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for UNKNOWN - 1000 candles
+2025-08-07 09:48:38.620 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 130 valid swing points for UNKNOWN
+2025-08-07 09:48:38.621 | INFO     | 56156 | 53288 | __main__:_test_structure_validation:495 -   EURUSD: 10/10 breaks valid (0.800 avg score)
+2025-08-07 09:48:38.622 | INFO     | 56156 | 53288 | __main__:_test_performance_analysis:506 - Testing performance analysis...
+2025-08-07 09:48:38.622 | INFO     | 56156 | 53288 | __main__:_test_performance_analysis:511 - Testing processing speed...
+2025-08-07 09:48:38.622 | INFO     | 56156 | 53288 | config.logging_config:__enter__:531 - Starting performance_testing
+2025-08-07 09:48:38.627 | INFO     | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:181 - Successfully fetched 2000 candles for EURUSD
+2025-08-07 09:48:38.628 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for UNKNOWN - 2000 candles
+2025-08-07 09:48:38.795 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 240 valid swing points for UNKNOWN
+2025-08-07 09:48:38.796 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for UNKNOWN - 2000 candles
+2025-08-07 09:48:38.967 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 240 valid swing points for UNKNOWN
+2025-08-07 09:48:38.967 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for UNKNOWN - 2000 candles
+2025-08-07 09:48:39.127 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 240 valid swing points for UNKNOWN
+2025-08-07 09:48:39.128 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:52 - Detecting structure breaks for UNKNOWN - 2000 candles
+2025-08-07 09:48:39.128 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for UNKNOWN - 2000 candles
+2025-08-07 09:48:39.288 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 240 valid swing points for UNKNOWN
+2025-08-07 09:48:39.349 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:73 - Detected 68 structure breaks for UNKNOWN
+2025-08-07 09:48:39.350 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:52 - Detecting structure breaks for UNKNOWN - 2000 candles
+2025-08-07 09:48:39.351 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for UNKNOWN - 2000 candles
+2025-08-07 09:48:39.529 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 240 valid swing points for UNKNOWN
+2025-08-07 09:48:39.613 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:73 - Detected 68 structure breaks for UNKNOWN
+2025-08-07 09:48:39.614 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:52 - Detecting structure breaks for UNKNOWN - 2000 candles
+2025-08-07 09:48:39.614 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for UNKNOWN - 2000 candles
+2025-08-07 09:48:39.784 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 240 valid swing points for UNKNOWN
+2025-08-07 09:48:39.847 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:73 - Detected 68 structure breaks for UNKNOWN
+2025-08-07 09:48:39.899 | INFO     | 56156 | 53288 | __main__:_test_visual_debugging:579 - Testing visual debugging...
+2025-08-07 09:48:39.899 | INFO     | 56156 | 53288 | config.logging_config:__enter__:531 - Starting visual_debugging
+2025-08-07 09:48:39.903 | INFO     | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:181 - Successfully fetched 500 candles for EURUSD
+2025-08-07 09:48:39.904 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for EURUSD - 500 candles
+2025-08-07 09:48:39.950 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 60 valid swing points for EURUSD
+2025-08-07 09:48:39.950 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:52 - Detecting structure breaks for EURUSD - 500 candles
+2025-08-07 09:48:39.950 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:50 - Analyzing swings for EURUSD - 500 candles
+2025-08-07 09:48:39.996 | INFO     | 56156 | 53288 | market_structure.swing_analyzer:analyze_swings:68 - Detected 60 valid swing points for EURUSD
+2025-08-07 09:48:40.010 | INFO     | 56156 | 53288 | market_structure.bos_choc_detector:detect_structure_breaks:73 - Detected 14 structure breaks for EURUSD
+2025-08-07 09:48:40.802 | INFO     | 56156 | 53288 | analysis_dashboard.structure_visualizer:create_structure_chart:140 - Structure chart created for EURUSD H1
+2025-08-07 09:48:41.026 | INFO     | 56156 | 53288 | analysis_dashboard.structure_visualizer:save_chart_html:536 - Chart saved to charts\EURUSD_h1_day2_demo.html
+2025-08-07 09:48:41.027 | INFO     | 56156 | 53288 | __main__:_test_visual_debugging:630 - Visual debugging ready: 60 swings, 14 breaks
+2025-08-07 09:48:41.027 | INFO     | 56156 | 53288 | __main__:_generate_day2_report:843 - Generating Day 2 comprehensive report...
+2025-08-07 09:48:41.027 | INFO     | 56156 | 53288 | config.logging_config:__enter__:531 - Starting report_generation
+2025-08-07 09:48:41.029 | INFO     | 56156 | 53288 | __main__:_generate_day2_report:956 - Report saved to reports\day2_results.txt
+2025-08-07 09:48:41.030 | INFO     | 56156 | 53288 | __main__:main:1183 - ============================================================
+2025-08-07 09:48:41.030 | INFO     | 56156 | 53288 | __main__:main:1185 - Market structure detection system is operational
+2025-08-07 09:48:41.030 | INFO     | 56156 | 53288 | __main__:main:1186 - ============================================================
+2025-08-07 09:48:41.030 | INFO     | 56156 | 53288 | __main__:cleanup:1161 - Cleaning up Day 2 demo...
+2025-08-07 09:48:41.030 | INFO     | 56156 | 53288 | data_service.data_fetcher:shutdown_mt5:492 - MT5 connection shut down cleanly
+2025-08-07 09:48:41.031 | INFO     | 56156 | 53288 | __main__:cleanup:1165 - Day 2 cleanup completed successfully

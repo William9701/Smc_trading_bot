@@ -1,0 +1,1 @@
+2025-08-07 09:47:05.660 | ERROR    | 12096 | 29588 | __main__:main:1194 - Demo failed with error: object bool can't be used in 'await' expression

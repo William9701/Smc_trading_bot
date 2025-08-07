@@ -1,0 +1,854 @@
+2025-08-07 09:48:32.772 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:160 - Data fetch attempt 1/3 for EURUSD
+2025-08-07 09:48:32.772 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:ensure_symbol_selected:147 - Symbol EURUSD selected successfully
+2025-08-07 09:48:33.337 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 115 primary swing points
+2025-08-07 09:48:33.340 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 115 swing points from 115 detected
+2025-08-07 09:48:33.376 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:160 - Data fetch attempt 1/3 for EURUSD
+2025-08-07 09:48:33.377 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:ensure_symbol_selected:147 - Symbol EURUSD selected successfully
+2025-08-07 09:48:33.454 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 130 primary swing points
+2025-08-07 09:48:33.457 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 130 swing points from 130 detected
+2025-08-07 09:48:33.494 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:160 - Data fetch attempt 1/3 for EURUSD
+2025-08-07 09:48:33.495 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:ensure_symbol_selected:147 - Symbol EURUSD selected successfully
+2025-08-07 09:48:33.576 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 125 primary swing points
+2025-08-07 09:48:33.580 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 125 swing points from 125 detected
+2025-08-07 09:48:33.624 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:160 - Data fetch attempt 1/3 for GBPUSD
+2025-08-07 09:48:33.624 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:ensure_symbol_selected:147 - Symbol GBPUSD selected successfully
+2025-08-07 09:48:33.970 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 120 primary swing points
+2025-08-07 09:48:33.972 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 120 swing points from 120 detected
+2025-08-07 09:48:34.004 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:160 - Data fetch attempt 1/3 for GBPUSD
+2025-08-07 09:48:34.004 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:ensure_symbol_selected:147 - Symbol GBPUSD selected successfully
+2025-08-07 09:48:34.075 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 114 primary swing points
+2025-08-07 09:48:34.077 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 114 swing points from 114 detected
+2025-08-07 09:48:34.109 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:160 - Data fetch attempt 1/3 for GBPUSD
+2025-08-07 09:48:34.110 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:ensure_symbol_selected:147 - Symbol GBPUSD selected successfully
+2025-08-07 09:48:34.177 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 121 primary swing points
+2025-08-07 09:48:34.180 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 121 swing points from 121 detected
+2025-08-07 09:48:34.215 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:160 - Data fetch attempt 1/3 for EURUSD
+2025-08-07 09:48:34.215 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:ensure_symbol_selected:147 - Symbol EURUSD selected successfully
+2025-08-07 09:48:34.271 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 118 primary swing points
+2025-08-07 09:48:34.273 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 118 swing points from 118 detected
+2025-08-07 09:48:34.306 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.306 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.309 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.311 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.312 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.318 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.318 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.319 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.319 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.319 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.321 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.324 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.325 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.327 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.327 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.327 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.328 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.331 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.334 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.337 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:160 - Data fetch attempt 1/3 for EURUSD
+2025-08-07 09:48:34.338 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:ensure_symbol_selected:147 - Symbol EURUSD selected successfully
+2025-08-07 09:48:34.393 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 130 primary swing points
+2025-08-07 09:48:34.396 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 130 swing points from 130 detected
+2025-08-07 09:48:34.429 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.429 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.429 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.430 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.430 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.430 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.432 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.432 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.432 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.436 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.438 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.442 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.444 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.445 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.446 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.447 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.450 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.451 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.451 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.451 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.451 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.455 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.456 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.456 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.458 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.458 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.462 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:160 - Data fetch attempt 1/3 for EURUSD
+2025-08-07 09:48:34.462 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:ensure_symbol_selected:147 - Symbol EURUSD selected successfully
+2025-08-07 09:48:34.516 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 125 primary swing points
+2025-08-07 09:48:34.519 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 125 swing points from 125 detected
+2025-08-07 09:48:34.552 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.553 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.553 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.553 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.553 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.554 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.556 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.557 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.559 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.561 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.562 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.563 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.566 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.568 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.569 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.570 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.571 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.571 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.571 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.575 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.575 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.575 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.576 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.579 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.579 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.580 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.582 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:160 - Data fetch attempt 1/3 for GBPUSD
+2025-08-07 09:48:34.582 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:ensure_symbol_selected:147 - Symbol GBPUSD selected successfully
+2025-08-07 09:48:34.637 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 121 primary swing points
+2025-08-07 09:48:34.640 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 121 swing points from 121 detected
+2025-08-07 09:48:34.675 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.682 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.682 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.682 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.682 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.684 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.688 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.690 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.691 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.692 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.695 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.697 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.699 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.700 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.700 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.700 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.702 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.707 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.708 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.710 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:160 - Data fetch attempt 1/3 for GBPUSD
+2025-08-07 09:48:34.711 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:ensure_symbol_selected:147 - Symbol GBPUSD selected successfully
+2025-08-07 09:48:34.769 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 115 primary swing points
+2025-08-07 09:48:34.771 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 115 swing points from 115 detected
+2025-08-07 09:48:34.803 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.804 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.807 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.807 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.809 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.809 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.814 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.814 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.819 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.819 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.821 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.822 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.822 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.826 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.827 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.830 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.831 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.831 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.836 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.837 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.837 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.838 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.839 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.843 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:160 - Data fetch attempt 1/3 for GBPUSD
+2025-08-07 09:48:34.843 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:ensure_symbol_selected:147 - Symbol GBPUSD selected successfully
+2025-08-07 09:48:34.905 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 121 primary swing points
+2025-08-07 09:48:34.907 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 121 swing points from 121 detected
+2025-08-07 09:48:34.942 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.942 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.944 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.944 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.947 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.948 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.949 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.951 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.953 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.953 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.954 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.954 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.957 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.959 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.960 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.963 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.970 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.974 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.975 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.975 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:34.975 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:34.978 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:160 - Data fetch attempt 1/3 for EURUSD
+2025-08-07 09:48:34.978 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:ensure_symbol_selected:147 - Symbol EURUSD selected successfully
+2025-08-07 09:48:35.045 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 118 primary swing points
+2025-08-07 09:48:35.049 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 118 swing points from 118 detected
+2025-08-07 09:48:35.087 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.088 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.091 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.109 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.115 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.124 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.124 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.124 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.125 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.125 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.126 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.128 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.130 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.132 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.132 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.134 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.134 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.142 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.145 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.149 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:160 - Data fetch attempt 1/3 for EURUSD
+2025-08-07 09:48:35.149 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:ensure_symbol_selected:147 - Symbol EURUSD selected successfully
+2025-08-07 09:48:35.217 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 130 primary swing points
+2025-08-07 09:48:35.221 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 130 swing points from 130 detected
+2025-08-07 09:48:35.259 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.260 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.260 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.260 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.260 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.260 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.262 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.263 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.264 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.266 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.268 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.272 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.273 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.275 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.275 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.276 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.280 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.281 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.282 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.282 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.282 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.285 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.286 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.286 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.287 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.287 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.290 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:160 - Data fetch attempt 1/3 for EURUSD
+2025-08-07 09:48:35.291 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:ensure_symbol_selected:147 - Symbol EURUSD selected successfully
+2025-08-07 09:48:35.346 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 125 primary swing points
+2025-08-07 09:48:35.349 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 125 swing points from 125 detected
+2025-08-07 09:48:35.425 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.426 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.426 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.426 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.426 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.427 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.428 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.429 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.431 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.432 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.432 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.432 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.436 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.438 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.438 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.439 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.441 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.441 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.441 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.445 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.445 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.445 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.446 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.448 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.449 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.449 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.451 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:160 - Data fetch attempt 1/3 for GBPUSD
+2025-08-07 09:48:35.451 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:ensure_symbol_selected:147 - Symbol GBPUSD selected successfully
+2025-08-07 09:48:35.506 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 121 primary swing points
+2025-08-07 09:48:35.509 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 121 swing points from 121 detected
+2025-08-07 09:48:35.540 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.545 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.546 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.546 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.546 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.548 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.551 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.553 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.554 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.554 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.558 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.558 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.561 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.561 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.561 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.561 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.564 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.569 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.571 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.572 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:160 - Data fetch attempt 1/3 for GBPUSD
+2025-08-07 09:48:35.572 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:ensure_symbol_selected:147 - Symbol GBPUSD selected successfully
+2025-08-07 09:48:35.626 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 115 primary swing points
+2025-08-07 09:48:35.628 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 115 swing points from 115 detected
+2025-08-07 09:48:35.658 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.660 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.663 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.664 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.664 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.664 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.668 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.670 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.672 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.672 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.674 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.674 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.674 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.677 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.678 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.680 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.680 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.680 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.684 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.685 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.686 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.686 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.687 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.690 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:160 - Data fetch attempt 1/3 for GBPUSD
+2025-08-07 09:48:35.690 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:ensure_symbol_selected:147 - Symbol GBPUSD selected successfully
+2025-08-07 09:48:35.746 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 121 primary swing points
+2025-08-07 09:48:35.749 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 121 swing points from 121 detected
+2025-08-07 09:48:35.786 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.786 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.787 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.788 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.790 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.793 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.793 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.795 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.796 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.796 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.798 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.798 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.800 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.802 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.803 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.805 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.811 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.814 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.815 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.815 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.815 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.818 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:160 - Data fetch attempt 1/3 for EURUSD
+2025-08-07 09:48:35.819 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:ensure_symbol_selected:147 - Symbol EURUSD selected successfully
+2025-08-07 09:48:35.878 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 118 primary swing points
+2025-08-07 09:48:35.880 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 118 swing points from 118 detected
+2025-08-07 09:48:35.912 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.913 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.915 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.918 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.920 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.922 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.924 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.924 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.924 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.925 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.926 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.928 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.929 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.930 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.930 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.930 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.931 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:35.934 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.937 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:35.948 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:160 - Data fetch attempt 1/3 for EURUSD
+2025-08-07 09:48:35.948 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:ensure_symbol_selected:147 - Symbol EURUSD selected successfully
+2025-08-07 09:48:36.004 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 130 primary swing points
+2025-08-07 09:48:36.006 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 130 swing points from 130 detected
+2025-08-07 09:48:36.041 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.041 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.042 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.043 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.043 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.043 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.045 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.045 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.047 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.049 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.052 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.057 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.059 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.060 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.061 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.062 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.066 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.068 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.068 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.068 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.069 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.071 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.072 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.072 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.074 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.075 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.087 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:160 - Data fetch attempt 1/3 for EURUSD
+2025-08-07 09:48:36.088 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:ensure_symbol_selected:147 - Symbol EURUSD selected successfully
+2025-08-07 09:48:36.148 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 125 primary swing points
+2025-08-07 09:48:36.151 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 125 swing points from 125 detected
+2025-08-07 09:48:36.186 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.186 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.187 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.187 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.187 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.187 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.189 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.190 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.192 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.192 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.194 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.195 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.198 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.208 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.208 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.210 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.214 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.216 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.224 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.239 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.242 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.244 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.244 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.248 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.248 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.248 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.277 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:160 - Data fetch attempt 1/3 for GBPUSD
+2025-08-07 09:48:36.278 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:ensure_symbol_selected:147 - Symbol GBPUSD selected successfully
+2025-08-07 09:48:36.347 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 121 primary swing points
+2025-08-07 09:48:36.350 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 121 swing points from 121 detected
+2025-08-07 09:48:36.387 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.393 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.393 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.394 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.394 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.395 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.398 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.400 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.401 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.402 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.404 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.406 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.407 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.408 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.408 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.408 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.410 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.416 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.417 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.425 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:160 - Data fetch attempt 1/3 for GBPUSD
+2025-08-07 09:48:36.427 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:ensure_symbol_selected:147 - Symbol GBPUSD selected successfully
+2025-08-07 09:48:36.484 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 115 primary swing points
+2025-08-07 09:48:36.487 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 115 swing points from 115 detected
+2025-08-07 09:48:36.516 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.518 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.521 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.521 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.522 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.522 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.527 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.528 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.530 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.531 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.532 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.532 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.532 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.536 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.537 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.539 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.540 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.540 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.544 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.545 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.545 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.545 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.547 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.557 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:160 - Data fetch attempt 1/3 for GBPUSD
+2025-08-07 09:48:36.558 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:ensure_symbol_selected:147 - Symbol GBPUSD selected successfully
+2025-08-07 09:48:36.615 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 121 primary swing points
+2025-08-07 09:48:36.618 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 121 swing points from 121 detected
+2025-08-07 09:48:36.649 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.650 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.651 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.652 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.654 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.656 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.656 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.659 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.660 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.661 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.662 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.662 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.663 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.665 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.666 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.668 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.674 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.679 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.679 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.679 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.680 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.689 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:160 - Data fetch attempt 1/3 for EURUSD
+2025-08-07 09:48:36.690 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:ensure_symbol_selected:147 - Symbol EURUSD selected successfully
+2025-08-07 09:48:36.709 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:160 - Data fetch attempt 1/3 for EURUSD
+2025-08-07 09:48:36.710 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:ensure_symbol_selected:147 - Symbol EURUSD selected successfully
+2025-08-07 09:48:36.729 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:160 - Data fetch attempt 1/3 for EURUSD
+2025-08-07 09:48:36.729 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:ensure_symbol_selected:147 - Symbol EURUSD selected successfully
+2025-08-07 09:48:36.796 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 118 primary swing points
+2025-08-07 09:48:36.798 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 118 swing points from 118 detected
+2025-08-07 09:48:36.831 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.831 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.834 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.837 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.839 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.842 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.842 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.844 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.844 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.844 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.845 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.847 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.848 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.850 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.851 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.851 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.852 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.856 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.861 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.914 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 130 primary swing points
+2025-08-07 09:48:36.917 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 130 swing points from 130 detected
+2025-08-07 09:48:36.951 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.952 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.952 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.953 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.954 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.954 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.955 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.955 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.956 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.958 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.960 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.965 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.967 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.969 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.969 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.969 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.972 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.974 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.974 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.975 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.975 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.978 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.979 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.979 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:36.980 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:36.981 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.034 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 125 primary swing points
+2025-08-07 09:48:37.038 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 125 swing points from 125 detected
+2025-08-07 09:48:37.073 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.074 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.074 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.074 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.075 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.075 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.077 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.079 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.080 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.082 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.082 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.084 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.089 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.091 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.092 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.093 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.094 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.095 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.095 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.100 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.100 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.101 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.101 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.104 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.104 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.105 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.107 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:160 - Data fetch attempt 1/3 for GBPUSD
+2025-08-07 09:48:37.107 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:ensure_symbol_selected:147 - Symbol GBPUSD selected successfully
+2025-08-07 09:48:37.126 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:160 - Data fetch attempt 1/3 for GBPUSD
+2025-08-07 09:48:37.127 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:ensure_symbol_selected:147 - Symbol GBPUSD selected successfully
+2025-08-07 09:48:37.147 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:160 - Data fetch attempt 1/3 for GBPUSD
+2025-08-07 09:48:37.148 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:ensure_symbol_selected:147 - Symbol GBPUSD selected successfully
+2025-08-07 09:48:37.220 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 121 primary swing points
+2025-08-07 09:48:37.222 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 121 swing points from 121 detected
+2025-08-07 09:48:37.266 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.273 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.274 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.274 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.274 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.276 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.281 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.284 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.284 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.287 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.292 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.294 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.298 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.298 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.298 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.299 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.303 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.310 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.313 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.399 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 115 primary swing points
+2025-08-07 09:48:37.403 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 115 swing points from 115 detected
+2025-08-07 09:48:37.438 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.441 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.445 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.445 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.446 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.446 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.452 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.452 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.457 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.458 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.459 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.460 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.460 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.463 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.463 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.467 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.467 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.468 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.473 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.473 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.473 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.474 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.474 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.535 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 121 primary swing points
+2025-08-07 09:48:37.538 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 121 swing points from 121 detected
+2025-08-07 09:48:37.574 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.574 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.577 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.577 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.580 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.582 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.583 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.586 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.587 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.588 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.590 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.591 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.593 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.596 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.597 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.599 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.607 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.612 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.613 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.613 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.614 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.616 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:160 - Data fetch attempt 1/3 for EURUSD
+2025-08-07 09:48:37.617 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:ensure_symbol_selected:147 - Symbol EURUSD selected successfully
+2025-08-07 09:48:37.677 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 130 primary swing points
+2025-08-07 09:48:37.680 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 130 swing points from 130 detected
+2025-08-07 09:48:37.715 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.715 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.715 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.717 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.717 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.717 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.719 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.719 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.720 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.723 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.725 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.729 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.730 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.732 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.732 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.734 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.737 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.738 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.739 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.739 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.739 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.742 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.742 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.742 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.745 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:37.745 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:37.799 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 130 primary swing points
+2025-08-07 09:48:37.801 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 130 swing points from 130 detected
+2025-08-07 09:48:37.889 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 130 primary swing points
+2025-08-07 09:48:37.891 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 130 swing points from 130 detected
+2025-08-07 09:48:37.978 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 130 primary swing points
+2025-08-07 09:48:37.980 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 130 swing points from 130 detected
+2025-08-07 09:48:38.064 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 130 primary swing points
+2025-08-07 09:48:38.067 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 130 swing points from 130 detected
+2025-08-07 09:48:38.149 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 130 primary swing points
+2025-08-07 09:48:38.151 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 130 swing points from 130 detected
+2025-08-07 09:48:38.234 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 130 primary swing points
+2025-08-07 09:48:38.236 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 130 swing points from 130 detected
+2025-08-07 09:48:38.324 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 130 primary swing points
+2025-08-07 09:48:38.326 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 130 swing points from 130 detected
+2025-08-07 09:48:38.408 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 130 primary swing points
+2025-08-07 09:48:38.411 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 130 swing points from 130 detected
+2025-08-07 09:48:38.495 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 130 primary swing points
+2025-08-07 09:48:38.497 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 130 swing points from 130 detected
+2025-08-07 09:48:38.584 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 130 primary swing points
+2025-08-07 09:48:38.587 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 130 swing points from 130 detected
+2025-08-07 09:48:38.623 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:160 - Data fetch attempt 1/3 for EURUSD
+2025-08-07 09:48:38.623 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:ensure_symbol_selected:147 - Symbol EURUSD selected successfully
+2025-08-07 09:48:38.722 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 240 primary swing points
+2025-08-07 09:48:38.730 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 240 swing points from 240 detected
+2025-08-07 09:48:38.895 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 240 primary swing points
+2025-08-07 09:48:38.904 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 240 swing points from 240 detected
+2025-08-07 09:48:39.060 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 240 primary swing points
+2025-08-07 09:48:39.068 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 240 swing points from 240 detected
+2025-08-07 09:48:39.219 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 240 primary swing points
+2025-08-07 09:48:39.227 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 240 swing points from 240 detected
+2025-08-07 09:48:39.288 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.288 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.290 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.291 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.299 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.300 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.301 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.302 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.305 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.307 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.308 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.309 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.312 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.312 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.313 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.314 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.314 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.315 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.319 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.319 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.320 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.320 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.322 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.326 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.327 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.331 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.332 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.332 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.332 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.332 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.334 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.336 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.337 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.339 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.339 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.339 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.340 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.344 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.347 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.445 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 240 primary swing points
+2025-08-07 09:48:39.453 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 240 swing points from 240 detected
+2025-08-07 09:48:39.529 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.529 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.532 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.533 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.546 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.547 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.548 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.550 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.555 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.557 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.558 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.560 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.562 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.563 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.564 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.565 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.565 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.567 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.572 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.573 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.573 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.574 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.577 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.583 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.585 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.591 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.592 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.592 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.592 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.593 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.594 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.596 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.598 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.601 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.601 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.602 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.602 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.606 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.611 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.718 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 240 primary swing points
+2025-08-07 09:48:39.726 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 240 swing points from 240 detected
+2025-08-07 09:48:39.785 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.785 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.787 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.788 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.795 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.795 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.797 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.798 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.801 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.802 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.804 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.805 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.807 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.807 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.808 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.809 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.809 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.810 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.814 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.814 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.815 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.815 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.817 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.820 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.822 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.829 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.829 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.830 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.830 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.830 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.832 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.833 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.835 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.837 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.838 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.838 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.838 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:39.842 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.845 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:39.900 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:fetch_data_with_retry:160 - Data fetch attempt 1/3 for EURUSD
+2025-08-07 09:48:39.900 | DEBUG    | 56156 | 29148 | data_service.data_fetcher:ensure_symbol_selected:147 - Symbol EURUSD selected successfully
+2025-08-07 09:48:39.932 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 60 primary swing points
+2025-08-07 09:48:39.932 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 60 swing points from 60 detected
+2025-08-07 09:48:39.977 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_detect_primary_swings:140 - Detected 60 primary swing points
+2025-08-07 09:48:39.978 | DEBUG    | 56156 | 53288 | market_structure.swing_analyzer:_validate_swings:203 - Validated 60 swing points from 60 detected
+2025-08-07 09:48:39.998 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:40.001 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:40.002 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:40.003 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:40.003 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:40.003 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:40.006 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:40.006 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:40.006 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
+2025-08-07 09:48:40.007 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: min() arg is an empty sequence
+2025-08-07 09:48:40.007 | DEBUG    | 56156 | 53288 | market_structure.bos_choc_detector:_check_structure_break:148 - Error checking structure break: max() arg is an empty sequence
