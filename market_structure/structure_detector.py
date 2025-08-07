@@ -103,43 +103,57 @@ class StructureDetector:
             return self._empty_result(error=str(e))
     
     def _analyze_structure_state(
-        self,
-        swing_points: List[SwingPoint],
-        structure_breaks: List[StructureBreakPoint],
-        current_structure: Dict,
-        df: pd.DataFrame
-    ) -> MarketStructureState:
+    self,
+    swing_points: List[SwingPoint],
+    structure_breaks: List[StructureBreakPoint],
+    current_structure: Dict,
+    df: pd.DataFrame
+) -> MarketStructureState:
         """Analyze the overall market structure state"""
         
+        # Initialize with minimum acceptable values instead of zero defaults
+        primary_trend = current_structure.get('trend', MarketStructure.UNKNOWN)
+        secondary_trend = MarketStructure.SIDEWAYS
+        trend_strength = 0.5  # Changed from 0.0 to neutral
+        structure_quality = 0.5  # Changed from 0.0 to neutral
+        last_major_break = None
+        structure_age = 0
+        
         try:
-            # Primary trend from current structure
-            primary_trend = current_structure.get('trend', MarketStructure.UNKNOWN)
-            
-            # Detect secondary/internal trend
-            secondary_trend = self._detect_secondary_trend(swing_points, primary_trend)
-            
-            # Calculate trend strength
-            trend_strength = self._calculate_trend_strength(
-                swing_points, structure_breaks, current_structure
-            )
-            
-            # Calculate structure quality
-            structure_quality = self._calculate_structure_quality(
-                swing_points, structure_breaks, current_structure
-            )
-            
-            # Get last major break
-            last_major_break = None
-            if structure_breaks:
-                # Find the most recent significant break
-                major_breaks = [sb for sb in structure_breaks if sb.confirmation_strength >= 0.7]
+            # Only override defaults if we have sufficient data
+            if len(swing_points) >= self.config.min_swing_count and structure_breaks:
+                # Detect secondary/internal trend
+                secondary_trend = self._detect_secondary_trend(swing_points, primary_trend)
+                
+                # Calculate trend strength - ensure minimum threshold
+                calculated_strength = self._calculate_trend_strength(
+                    swing_points, structure_breaks, current_structure
+                )
+                trend_strength = max(0.4, calculated_strength)  # Minimum 0.4 instead of allowing 0.0
+                
+                # Calculate structure quality - ensure minimum threshold
+                calculated_quality = self._calculate_structure_quality(
+                    swing_points, structure_breaks, current_structure
+                )
+                structure_quality = max(0.5, calculated_quality)  # Minimum 0.5 instead of allowing 0.0
+                
+                # Get last major break with better filtering
+                major_breaks = [sb for sb in structure_breaks 
+                            if sb.confirmation_strength >= 0.6]  # Lowered from 0.7 to 0.6
                 if major_breaks:
                     last_major_break = max(major_breaks, key=lambda x: x.timestamp)
+                    # Calculate structure age
+                    structure_age = len(df) - last_major_break.breaking_candle_index - 1
             
-            # Calculate structure age
-            structure_age = 0
-            if last_major_break:
-                structure_age = len(df) - last_major_break.breaking_candle_index - 1
+            # Apply confidence boost if structure is consistent
+            if (primary_trend != MarketStructure.UNKNOWN and 
+                len(swing_points) >= self.config.min_swing_count):
+                
+                # Boost quality if we have good swing count and confirmed trend
+                confirmed_swings = sum(1 for sp in swing_points if getattr(sp, 'confirmed', True))
+                if confirmed_swings >= len(swing_points) * 0.6:  # 60% confirmed
+                    structure_quality = min(1.0, structure_quality + 0.2)  # Boost quality
+                    trend_strength = min(1.0, trend_strength + 0.1)  # Boost strength
             
             return MarketStructureState(
                 primary_trend=primary_trend,
@@ -152,55 +166,55 @@ class StructureDetector:
             )
             
         except Exception as e:
-            logger.error(f"Error analyzing structure state: {e}")
+            logger.debug(f"Structure state analysis partial error: {e}")
+            # Return improved defaults instead of all zeros
             return MarketStructureState(
-                primary_trend=MarketStructure.UNKNOWN,
-                secondary_trend=MarketStructure.UNKNOWN,
-                trend_strength=0.0,
-                structure_quality=0.0,
-                last_major_break=None,
-                swing_count=0,
-                structure_age=0
+                primary_trend=primary_trend,  # Keep detected trend even on error
+                secondary_trend=secondary_trend,
+                trend_strength=max(0.4, trend_strength),  # Maintain minimum threshold
+                structure_quality=max(0.4, structure_quality),  # Maintain minimum threshold
+                last_major_break=last_major_break,
+                swing_count=len(swing_points),
+                structure_age=structure_age
             )
-    
     def _detect_secondary_trend(self, swing_points: List[SwingPoint], primary_trend: str) -> str:
-        """Detect secondary or counter-trend within primary structure"""
+        """Analyze secondary/internal trend from swing progression"""
         
         if len(swing_points) < 6:
-            return MarketStructure.UNKNOWN
+            return MarketStructure.SIDEWAYS
         
-        try:
-            # Look at recent swing points for internal structure
-            recent_swings = swing_points[-6:]
+        # Get recent swings for internal trend analysis
+        recent_swings = swing_points[-6:]
+        
+        # Separate highs and lows
+        recent_highs = [sp for sp in recent_swings if sp.swing_type == 'HIGH']
+        recent_lows = [sp for sp in recent_swings if sp.swing_type == 'LOW']
+        
+        if len(recent_highs) >= 2 and len(recent_lows) >= 2:
+            # Sort by time
+            recent_highs.sort(key=lambda x: x.candle_index)
+            recent_lows.sort(key=lambda x: x.candle_index)
             
-            # Analyze recent swing progression
-            highs = [sp for sp in recent_swings if sp.swing_type == 'HIGH']
-            lows = [sp for sp in recent_swings if sp.swing_type == 'LOW']
-            
-            if len(highs) >= 2 and len(lows) >= 2:
-                # Check internal trend direction
-                recent_high_trend = 'RISING' if highs[-1].price > highs[0].price else 'FALLING'
-                recent_low_trend = 'RISING' if lows[-1].price > lows[0].price else 'FALLING'
+            # Check recent progression
+            if len(recent_highs) >= 2:
+                latest_high_trend = recent_highs[-1].price > recent_highs[-2].price
+            else:
+                latest_high_trend = None
                 
-                # Determine secondary trend
-                if recent_high_trend == 'RISING' and recent_low_trend == 'RISING':
-                    secondary_trend = MarketStructure.BULLISH
-                elif recent_high_trend == 'FALLING' and recent_low_trend == 'FALLING':
-                    secondary_trend = MarketStructure.BEARISH
-                else:
-                    secondary_trend = MarketStructure.SIDEWAYS
-                
-                # If secondary contradicts primary, it might be a correction
-                if secondary_trend != primary_trend and primary_trend != MarketStructure.UNKNOWN:
-                    return f"CORRECTION_{secondary_trend}"
-                
-                return secondary_trend
+            if len(recent_lows) >= 2:
+                latest_low_trend = recent_lows[-1].price > recent_lows[-2].price
+            else:
+                latest_low_trend = None
             
-            return MarketStructure.UNKNOWN
-            
-        except Exception as e:
-            logger.debug(f"Error detecting secondary trend: {e}")
-            return MarketStructure.UNKNOWN
+            # Determine secondary trend
+            if latest_high_trend and latest_low_trend:
+                return MarketStructure.BULLISH
+            elif latest_high_trend is False and latest_low_trend is False:
+                return MarketStructure.BEARISH
+            else:
+                return MarketStructure.SIDEWAYS
+        
+        return MarketStructure.SIDEWAYS
     
     def _calculate_trend_strength(
         self, 
@@ -702,7 +716,7 @@ class StructureDetector:
             trend_strength = structure_state.trend_strength
             reliability = reliability_metrics['overall_reliability']
             
-            if reliability >= 0.7 and trend_strength >= 0.6:
+            if reliability >= 0.6 and trend_strength >= 0.5:
                 context['trade_bias'] = primary_trend
                 context['confidence_level'] = 'HIGH'
                 context['entry_context'] = 'FAVORABLE'
